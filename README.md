@@ -282,71 +282,39 @@ The following are major commercial or hosted platforms in route optimization, de
 
 
 
-| Platform                                                          | Primary Focus           | Typical Strength                |
-
-| ----------------------------------------------------------------- | ----------------------- | ------------------------------- |
-
-| [OptimoRoute](https://optimoroute.com/)                           | Route optimization      | Delivery and service routing    |
-
-| [Routific](https://www.routific.com/)                             | Last-mile routing       | SMB delivery optimization       |
-
-| [Onfleet](https://onfleet.com/)                                   | Last-mile delivery      | Dispatch + driver tracking      |
-
-| [Circuit](https://getcircuit.com/)                                | Route planning          | Multi-stop delivery routing     |
-
-| [FarEye](https://fareye.com/)                                     | Logistics orchestration | Enterprise logistics            |
-
-| [NextBillion.ai](https://nextbillion.ai/)                         | Mapping + optimization  | Developer APIs and logistics    |
-
-| [MyRouteOnline](https://www.myrouteonline.com/)                   | Multi-stop routing      | Route planning                  |
-
-| [WorkWave Route Manager](https://www.workwave.com/route-manager/) | Field service           | Routing + workforce management  |
-
-| [PTV Route Optimiser](https://www.ptvlogistics.com/)              | Fleet optimization      | Enterprise logistics            |
-
-| [Upper Route Planner](https://www.upperinc.com/)                  | Route planning          | Delivery route optimization     |
-
-| [Route4Me](https://route4me.com/)                                 | Route optimization      | Large-scale routing             |
-
-| [Verizon Connect](https://www.verizonconnect.com/)                | Fleet management        | Fleet + routing + telematics    |
-
-| [Samsara](https://www.samsara.com/)                               | Fleet operations        | Telematics + routing            |
-
-| [Motive](https://gomotive.com/)                                   | Fleet management        | Fleet + dispatch                |
-
-| [Descartes](https://www.descartes.com/)                           | Logistics               | Enterprise routing              |
-
-| [ORTEC](https://ortec.com/)                                       | Optimization            | Advanced logistics optimization |
-
-| [PTV Logistics](https://www.ptvlogistics.com/)                    | Transport planning      | Fleet optimization              |
-
-| [Omnitracs](https://www.omnitracs.com/)                           | Fleet management        | Routing and dispatch            |
-
-| [Bringg](https://www.bringg.com/)                                 | Delivery orchestration  | Last-mile delivery              |
-
-| [DispatchTrack](https://www.dispatchtrack.com/)                   | Delivery management     | Routing + visibility            |
-
-| [Locus](https://locus.sh/)                                        | Logistics optimization  | Enterprise last mile            |
-
-| [FarEye](https://fareye.com/)                                     | Logistics platform      | Delivery orchestration          |
-
-| [Shipsy](https://shipsy.io/)                                      | Logistics               | Last-mile and fleet             |
-
-| [Track-POD](https://www.track-pod.com/)                           | Delivery management     | Routing + POD                   |
-
-| [Tookan](https://tookanapp.com/)                                  | Field service           | Dispatch + routing              |
-
-| [Zeo Route Planner](https://zeorouteplanner.com/)                 | Route planning          | Multi-stop optimization         |
-
-| [RoadWarrior](https://roadwarrior.app/)                           | Route planning          | Multi-stop driver routing       |
-
-| [Badger Maps](https://www.badgermapping.com/)                     | Sales routing           | Territory + field sales         |
-
-| [MapAnything](https://www.salesforce.com/)                        | Sales routing           | CRM-based mapping               |
-
-| [SalesRabbit](https://salesrabbit.com/)                           | Field sales             | Territory planning              |
-
-| [Geotab](https://www.geotab.com/)                                 | Fleet telematics        | Fleet + routing integrations    |
+| Platform | Primary Focus | Typical Strength | Pricing | Free Tier Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| [OptimoRoute](https://optimoroute.com/) | Route optimization | Delivery and service routing | Starts at $35.10/driver/month (annual) or $39/driver/month (monthly) for Lite plan (capped at 700 orders) | 30-day free trial (up to 250 stops, no credit card required); no free-forever plan |
+| [Routific](https://www.routific.com/) | Last-mile routing | SMB delivery optimization | Free for ≤100 orders/month; paid plans start at $150/month flat base fee (Growing plan, up to 1,000 orders/month; $0.15–$0.03 per additional order) | Free-forever plan up to 100 orders/month (includes core routing & driver mobile app, no credit card required); 14-day free trial for paid plans |
+| [Onfleet](https://onfleet.com/) | Last-mile delivery | Dispatch + driver tracking | Starts at $500/month (annual) or $619/month (monthly) for Launch plan (includes up to 2,500 pickup/delivery tasks/month, unlimited drivers/users) | 14-day free trial (up to 2,500 delivery tasks with full platform access); no free-forever plan |
+| [Circuit](https://getcircuit.com/) | Route planning | Multi-stop delivery routing | Individual driver app starts at $20/month; Circuit for Teams (Spoke) starts at $100/month (annual) or $125/month (monthly) for up to 500 stops/month | Free mobile app plan forever up to 10 stops per route; 7-day free trial for Circuit for Teams (up to 500 stops) |
+| [FarEye](https://fareye.com/) | Logistics orchestration | Enterprise logistics | Enterprise contracts start at ~$10,000/year (~$833/month base platform fee benchmark; Capterra listed baseline $100,000 enterprise deployment) | Free guided live demo; 14-to-30 day scoped pilot/POC trial for qualified enterprise prospects; no free-forever plan |
+| [NextBillion.ai](https://nextbillion.ai/) | Mapping + optimization | Developer APIs and logistics | Starts at $499/month (Grow plan, includes up to 5,000 orders/month; $0.08 per extra order; 12-month contract) | 14-day free trial (full API/SDK testing access, no credit card required); permanent free access to web utilities (Distance Matrix Calculator, GeoJSON Editor) |
+| [MyRouteOnline](https://www.myrouteonline.com/) | Multi-stop routing | Route planning | Starts at $19/month (includes 50 address credits/month; single-day pass available at $9 for 50 credits) | Free plan forever up to 6 stops per route on mobile app; web free trial up to 10 stops; no credit card required |
+| [WorkWave Route Manager](https://www.workwave.com/route-manager/) | Field service | Routing + workforce management | Starts at $54/vehicle/month (requires a 4-vehicle minimum = $216/month minimum) | Free guided live demo with sample fleet data; no self-service trial (0 days) and no free-forever plan |
+| [PTV Route Optimiser](https://www.ptvlogistics.com/) | Fleet optimization | Enterprise logistics | Starts at ~€500–€1,000/month (~€6,000/year minimum software subscription contract benchmark) | Free custom product demo with company fleet routing data; 14-day guided proof-of-concept pilot upon request; no free-forever plan |
+| [Upper Route Planner](https://www.upperinc.com/) | Route planning | Delivery route optimization | Starts at $40/user/month (annual) or $48–$50/user/month (monthly) for Starter plan (up to 250 stops/route) | 7-day free trial (up to 3 drivers with full feature access); permanent free web routing tool up to 20 stops without signup |
+| [Route4Me](https://route4me.com/) | Route optimization | Large-scale routing | Starts at $199/month (Route Optimization plan, includes 10 team members; solo mobile app starts at $9.99/month) | 7-day free trial with full platform features; mobile app free-forever plan allows up to 10 stops per route (routes expire after 7 days) |
+| [Verizon Connect](https://www.verizonconnect.com/) | Fleet management | Fleet + routing + telematics | Starts at ~$20–$25/vehicle/month (standard Reveal package; typically 36-month contract) | Free guided live demo; 30-day pilot trial available upon sales qualification; no free-forever plan |
+| [Samsara](https://www.samsara.com/) | Fleet operations | Telematics + routing | Starts at ~$27–$33/vehicle/month (telematics & dispatch baseline; $99–$148 upfront hardware per vehicle; 36-month contract) | Free guided product demo; 30-day risk-free hardware return period trial; no free-forever plan |
+| [Motive](https://gomotive.com/) | Fleet management | Fleet + dispatch | Starts at ~$20–$25/vehicle/month (Starter plan; 12-month minimum contract; hardware sold separately) | Free guided product demo; 14-day evaluation unit available upon sales consultation; no free-forever plan |
+| [Descartes](https://www.descartes.com/) | Logistics | Enterprise routing | Starts at ~$99/vehicle/month (or ~$26–$100/user/month OnDemand benchmark; enterprise onboarding from $5,000) | Free customized sales demo with simulated fleet scenarios; no self-service trial (0 days) and no free-forever plan |
+| [ORTEC](https://ortec.com/) | Optimization | Advanced logistics optimization | Starts at ~$500/month (base module entry benchmark for ORTEC Routing & Dispatch; enterprise deployments scale to $5,000–$50,000+/month) | 30-day proof-of-concept pilot evaluation upon sales qualification; no free-forever plan |
+| [PTV Logistics](https://www.ptvlogistics.com/) | Transport planning | Fleet optimization | Starts at €99/month (or pay-per-transaction from €0.015/calculation beyond free allowance) | Free-forever developer tier with 100,000 transactions/month (OptiFlow API capped at 20 orders/locations, 5 vehicles, 5 min runtime/request; no credit card required) |
+| [Omnitracs](https://www.omnitracs.com/) | Fleet management | Routing and dispatch | Starts at ~$30–$40/vehicle/month (telematics/dispatch tier; Roadnet Transportation Suite benchmark starts at $500/month) | Free custom product demo; 14-to-30 day fleet pilot upon sales agreement; no free-forever plan |
+| [Bringg](https://www.bringg.com/) | Delivery orchestration | Last-mile delivery | Starts at ~$10,000/year (~$833/month base contract benchmark; average enterprise contract ~$20,000/year) | Free custom sales demo; 14-to-30 day pilot evaluation for qualified enterprise accounts; no free-forever plan |
+| [DispatchTrack](https://www.dispatchtrack.com/) | Delivery management | Routing + visibility | Starts at ~$75/truck/month (base deployments starting at ~$500/month depending on fleet size) | Free customized live demo; 14-day sandbox pilot upon sales qualification; no free-forever plan |
+| [Locus](https://locus.sh/) | Logistics optimization | Enterprise last mile | Starts at ~$49/driver/month (or pilot deployments from ~$1,000/month; enterprise quotes scaled by delivery volume) | Free custom demo; 14-to-30 day guided sandbox / POC pilot; no free-forever plan |
+| [FarEye](https://fareye.com/) | Logistics platform | Delivery orchestration | Starts at ~$10,000/year (~$833/month base platform fee benchmark; Capterra listed baseline $100,000 enterprise deployment) | Free guided live demo; 14-to-30 day scoped pilot/POC trial for qualified enterprise prospects; no free-forever plan |
+| [Shipsy](https://shipsy.io/) | Logistics | Last-mile and fleet | Starts at ~$10,000/year (~$833/month base contract benchmark; standard mid-market rollouts ~$1,200–$2,500/month) | Free customized interactive demo; 14-to-30 day pilot sandbox upon sales qualification; no free-forever plan |
+| [Track-POD](https://www.track-pod.com/) | Delivery management | Routing + POD | Starts at $49/driver/month (annual) or $59/driver/month (monthly) for Advanced plan (or order-based from $285/month for 1,500 orders) | 7-day free trial (up to 1 driver / full feature access, no credit card required); no free-forever plan |
+| [Tookan](https://tookanapp.com/) | Field service | Dispatch + routing | Starts at $99/month (Startup plan, covers up to 700 tasks/month, $0.15/extra task; unlimited drivers) | 14-day free trial (up to 100 tasks, no credit card required); no free-forever plan |
+| [Zeo Route Planner](https://zeorouteplanner.com/) | Route planning | Multi-stop optimization | Individual mobile plan starts at $15.99/month; Zeo for Fleets starts at $35–$40/driver/month ($25/driver/month billed annually) | Free mobile plan forever up to 12 routes/month (unlimited stops); 7-day free trial on Fleet plans (no credit card required) |
+| [RoadWarrior](https://roadwarrior.app/) | Route planning | Multi-stop driver routing | RoadWarrior Pro is $14.99/month; RoadWarrior Flex (Teams) starts at $49/month (includes base dispatch + $14.99/driver/month) | Free Basic plan forever up to 8 stops per route and 50 optimized stops/day; 7-day free trial on RoadWarrior Flex |
+| [Badger Maps](https://www.badgermapping.com/) | Sales routing | Territory + field sales | Starts at $58/user/month (annual) or $69/user/month (monthly) for Business plan | 14-day free trial (Business plan, full access, no credit card required); no free-forever plan |
+| [MapAnything](https://www.salesforce.com/) | Sales routing | CRM-based mapping | Starts at $75/user/month (annual; requires Salesforce CRM license from $25/user/month; Advanced tier is $150/user/month) | Free guided product demo; Developer Edition org available for testing; no self-service trial (0 days) and no free-forever plan |
+| [SalesRabbit](https://salesrabbit.com/) | Field sales | Territory planning | Free Lite plan; Team/Pro plans start at $49/user/month (annual) or $59/user/month (monthly) | Free Lite plan forever (limited to 1 user with core mapping & route tracking); no time-limited trial for paid plans |
+| [Geotab](https://www.geotab.com/) | Fleet telematics | Fleet + routing integrations | Starts at ~$15–$25/vehicle/month (GO Core software plan via resellers; hardware ~$150–$250/device) | 30-day pilot / demo unit evaluation via authorized resellers; no free-forever plan |
 
 
 
