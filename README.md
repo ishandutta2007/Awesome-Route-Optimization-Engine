@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Route-Optimization-Engine/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Route-Optimization-Engine?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Route-Optimization-Engine/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Route-Optimization-Engine?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Route-Optimization-Engine/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Route-Optimization-Engine?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Route-Optimization-Engine/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Route-Optimization-Engine?style=flat-square" alt="GitHub Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Route-Optimization-Engine/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square" alt="License: MIT" /></a>
@@ -333,50 +333,50 @@ OpenStreetMap / OSM Data
 
 ## 🏆 Open-Source Star Leaderboard
 
-The following table ranks the leading open-source repositories in route optimization, routing networks, mathematical solving, mapping, and fleet management sorted by GitHub stars (descending):
+The following table ranks the leading open-source repositories in route optimization, routing networks, mathematical solving, mapping, and fleet management sorted by GitHub_Stars (descending):
 
 | Rank | Project | Category | Stars | Primary Language | Description / Focus |
 | :---: | :--- | :--- | :--- | :--- | :--- |
-| 1 | [n8n](https://github.com/n8n-io/n8n) | Workflow Automation | [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | TypeScript | Fair-code workflow automation for dispatch pipelines |
-| 2 | [Apache Kafka](https://github.com/apache/kafka) | Event Streaming | [![GitHub stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers) | Java / Scala | High-throughput distributed event streaming for GPS and order events |
-| 3 | [Node-RED](https://github.com/node-red/node-red) | Event Infrastructure | [![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers) | JavaScript | Low-code event-driven wiring for telematics and IoT dispatch |
-| 4 | [Temporal](https://github.com/temporalio/temporal) | Workflow Orchestration | [![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers) | Go | Durable execution platform for long-running dispatch workflows |
-| 5 | [LightGBM](https://github.com/microsoft/LightGBM) | Machine Learning | [![GitHub stars](https://img.shields.io/github/stars/microsoft/LightGBM?style=social&color=white)](https://github.com/microsoft/LightGBM/stargazers) | C++ / Python | Fast gradient boosting framework for ETA prediction and travel time |
-| 6 | [NetworkX](https://github.com/networkx/networkx) | Network Analysis | [![GitHub stars](https://img.shields.io/github/stars/networkx/networkx?style=social&color=white)](https://github.com/networkx/networkx/stargazers) | Python | Comprehensive graph algorithms and network analysis library |
-| 7 | [SciPy](https://github.com/scipy/scipy) | Scientific Computing | [![GitHub stars](https://img.shields.io/github/stars/scipy/scipy?style=social&color=white)](https://github.com/scipy/scipy/stargazers) | Python / C | Fundamental library for scientific computing and optimization |
-| 8 | [Google OR-Tools](https://github.com/google/or-tools) | Optimization Engine | [![GitHub stars](https://img.shields.io/github/stars/google/or-tools?style=social&color=white)](https://github.com/google/or-tools/stargazers) | C++ / Python / Java | Industry-standard suite for VRP, CVRP, VRPTW, and integer programming |
-| 9 | [MapLibre GL](https://github.com/maplibre/maplibre-gl-js) | Mapping & Visualization | [![GitHub stars](https://img.shields.io/github/stars/maplibre/maplibre-gl-js?style=social&color=white)](https://github.com/maplibre/maplibre-gl-js/stargazers) | TypeScript | Open-source vector tile map SDK for web and mobile dispatch maps |
-| 10 | [OSRM](https://github.com/Project-OSRM/osrm-backend) | Routing Engine | [![GitHub stars](https://img.shields.io/github/stars/Project-OSRM/osrm-backend?style=social&color=white)](https://github.com/Project-OSRM/osrm-backend/stargazers) | C++ | Ultra-fast C++ routing engine and distance table calculator on OSM |
-| 11 | [Traccar](https://github.com/traccar/traccar) | GPS / Fleet Telematics | [![GitHub stars](https://img.shields.io/github/stars/traccar/traccar?style=social&color=white)](https://github.com/traccar/traccar/stargazers) | Java | Leading open-source GPS tracking system supporting 1500+ device protocols |
-| 12 | [GraphHopper](https://github.com/graphhopper/graphhopper) | Routing Engine | [![GitHub stars](https://img.shields.io/github/stars/graphhopper/graphhopper?style=social&color=white)](https://github.com/graphhopper/graphhopper/stargazers) | Java | Fast and memory-efficient routing engine with turn-by-turn directions |
-| 13 | [H3](https://github.com/uber/h3) | Spatial Indexing | [![GitHub stars](https://img.shields.io/github/stars/uber/h3?style=social&color=white)](https://github.com/uber/h3/stargazers) | C / Python | Hexagonal hierarchical spatial index for territory optimization & clustering |
-| 14 | [CVXPY](https://github.com/cvxpy/cvxpy) | Mathematical Solver | [![GitHub stars](https://img.shields.io/github/stars/cvxpy/cvxpy?style=social&color=white)](https://github.com/cvxpy/cvxpy/stargazers) | Python | Domain-specific modeling language for convex optimization problems |
-| 15 | [Valhalla](https://github.com/valhalla/valhalla) | Routing Engine | [![GitHub stars](https://img.shields.io/github/stars/valhalla/valhalla?style=social&color=white)](https://github.com/valhalla/valhalla/stargazers) | C++ | Multimodal open-source routing engine with dynamic tile generation |
-| 16 | [OSMnx](https://github.com/gboeing/osmnx) | Spatial Analysis | [![GitHub stars](https://img.shields.io/github/stars/gboeing/osmnx?style=social&color=white)](https://github.com/gboeing/osmnx/stargazers) | Python | Street network retrieval, modeling, and shortest-path analysis from OSM |
-| 17 | [Nominatim](https://github.com/osm-search/Nominatim) | Geocoding | [![GitHub stars](https://img.shields.io/github/stars/osm-search/Nominatim?style=social&color=white)](https://github.com/osm-search/Nominatim/stargazers) | C++ / PHP | Official OpenStreetMap search and reverse-geocoding engine |
-| 18 | [Pelias](https://github.com/pelias/pelias) | Geocoding | [![GitHub stars](https://img.shields.io/github/stars/pelias/pelias?style=social&color=white)](https://github.com/pelias/pelias/stargazers) | Node.js | Modular, open-source search engine powered by Elasticsearch |
-| 19 | [OptaPlanner / KIE](https://github.com/apache/incubator-kie-optaplanner) | Optimization Engine | [![GitHub stars](https://img.shields.io/github/stars/apache/incubator-kie-optaplanner?style=social&color=white)](https://github.com/apache/incubator-kie-optaplanner/stargazers) | Java | AI constraint satisfaction solver for complex enterprise vehicle routing |
-| 20 | [OpenMapTiles](https://github.com/openmaptiles/openmaptiles) | Vector Tiles | [![GitHub stars](https://img.shields.io/github/stars/openmaptiles/openmaptiles?style=social&color=white)](https://github.com/openmaptiles/openmaptiles/stargazers) | Shell / Python | Extensible vector tile schema and generator for custom mapping |
-| 21 | [Photon](https://github.com/komoot/photon) | Geocoding | [![GitHub stars](https://img.shields.io/github/stars/komoot/photon?style=social&color=white)](https://github.com/komoot/photon/stargazers) | Java | Open-source geocoder based on Elasticsearch and OpenStreetMap data |
-| 22 | [Pyomo](https://github.com/Pyomo/pyomo) | Mathematical Solver | [![GitHub stars](https://img.shields.io/github/stars/Pyomo/pyomo?style=social&color=white)](https://github.com/Pyomo/pyomo/stargazers) | Python | Python-based mathematical programming language with solver plugins |
-| 23 | [PuLP](https://github.com/coin-or/pulp) | Mathematical Solver | [![GitHub stars](https://img.shields.io/github/stars/coin-or/pulp?style=social&color=white)](https://github.com/coin-or/pulp/stargazers) | Python | Linear programming modeler supporting multiple backend MIP solvers |
-| 24 | [JuMP](https://github.com/jump-dev/JuMP.jl) | Mathematical Solver | [![GitHub stars](https://img.shields.io/github/stars/jump-dev/JuMP.jl?style=social&color=white)](https://github.com/jump-dev/JuMP.jl/stargazers) | Julia | Fast mathematical optimization modeling package for operations research |
-| 25 | [openrouteservice](https://github.com/GIScience/openrouteservice) | Routing Engine | [![GitHub stars](https://img.shields.io/github/stars/GIScience/openrouteservice?style=social&color=white)](https://github.com/GIScience/openrouteservice/stargazers) | Java | Spatial routing platform with distance matrix, isochrones & elevation |
-| 26 | [OpenRemote](https://github.com/openremote/openremote) | Fleet / IoT Telematics | [![GitHub stars](https://img.shields.io/github/stars/openremote/openremote?style=social&color=white)](https://github.com/openremote/openremote/stargazers) | Java | Open-source IoT platform for fleet telematics and smart asset automation |
-| 27 | [VROOM](https://github.com/VROOM-Project/vroom) | Optimization Engine | [![GitHub stars](https://img.shields.io/github/stars/VROOM-Project/vroom?style=social&color=white)](https://github.com/VROOM-Project/vroom/stargazers) | C++ | Ultra-fast vehicle routing optimization engine with instant REST API |
-| 28 | [jsprit](https://github.com/graphhopper/jsprit) | Optimization Engine | [![GitHub stars](https://img.shields.io/github/stars/graphhopper/jsprit?style=social&color=white)](https://github.com/graphhopper/jsprit/stargazers) | Java | Rich Java vehicle routing toolkit with customizable metaheuristics |
-| 29 | [HiGHS](https://github.com/ERGO-Code/HiGHS) | Mathematical Solver | [![GitHub stars](https://img.shields.io/github/stars/ERGO-Code/HiGHS?style=social&color=white)](https://github.com/ERGO-Code/HiGHS/stargazers) | C++ | High-performance open-source linear and mixed-integer programming solver |
-| 30 | [Timefold Solver](https://github.com/TimefoldAI/timefold-solver) | Optimization Engine | [![GitHub stars](https://img.shields.io/github/stars/TimefoldAI/timefold-solver?style=social&color=white)](https://github.com/TimefoldAI/timefold-solver/stargazers) | Java / Python | Modern AI optimization engine for fleet scheduling, VRP, and workforce |
-| 31 | [pgRouting](https://github.com/pgRouting/pgrouting) | Routing Engine | [![GitHub stars](https://img.shields.io/github/stars/pgRouting/pgrouting?style=social&color=white)](https://github.com/pgRouting/pgrouting/stargazers) | C / C++ / SQL | PostGIS extension adding routing, TSP, and VRP algorithms to PostgreSQL |
-| 32 | [OwnTracks](https://github.com/owntracks/recorder) | Location Telematics | [![GitHub stars](https://img.shields.io/github/stars/owntracks/recorder?style=social&color=white)](https://github.com/owntracks/recorder/stargazers) | C | Lightweight private GPS location tracking backend and mobile client |
-| 33 | [CBC](https://github.com/coin-or/Cbc) | Mathematical Solver | [![GitHub stars](https://img.shields.io/github/stars/coin-or/Cbc?style=social&color=white)](https://github.com/coin-or/Cbc/stargazers) | C++ | COIN-OR Branch and Cut mixed integer linear programming solver |
-| 34 | [BRouter](https://github.com/abrensch/brouter) | Routing Engine | [![GitHub stars](https://img.shields.io/github/stars/abrensch/brouter?style=social&color=white)](https://github.com/abrensch/brouter/stargazers) | Java | Configurable offline routing engine with elevation and profile awareness |
-| 35 | [PyVRP](https://github.com/PyVRP/PyVRP) | Optimization Engine | [![GitHub stars](https://img.shields.io/github/stars/PyVRP/PyVRP?style=social&color=white)](https://github.com/PyVRP/PyVRP/stargazers) | Python / C++ | Award-winning hybrid genetic search VRP library for Python |
-| 36 | [MobilityDB](https://github.com/MobilityDB/MobilityDB) | Trajectory Database | [![GitHub stars](https://img.shields.io/github/stars/MobilityDB/MobilityDB?style=social&color=white)](https://github.com/MobilityDB/MobilityDB/stargazers) | C / SQL | PostgreSQL/PostGIS extension for moving vehicle trajectories and GPS tracks |
-| 37 | [RoutingKit](https://github.com/RoutingKit/RoutingKit) | Routing Library | [![GitHub stars](https://img.shields.io/github/stars/RoutingKit/RoutingKit?style=social&color=white)](https://github.com/RoutingKit/RoutingKit/stargazers) | C++ | C++ routing library for computing shortest paths using contraction hierarchies |
-| 38 | [VRPH](https://github.com/coin-or/VRPH) | Optimization Engine | [![GitHub stars](https://img.shields.io/github/stars/coin-or/VRPH?style=social&color=white)](https://github.com/coin-or/VRPH/stargazers) | C++ | COIN-OR library of heuristics for generating solutions to the CVRP |
-| 39 | [OscaR](https://github.com/oscarlib/oscar) | Optimization Engine | [![GitHub stars](https://img.shields.io/github/stars/oscarlib/oscar?style=social&color=white)](https://github.com/oscarlib/oscar/stargazers) | Scala | Scala library for constraint programming and combinatorial optimization |
-| 40 | [Open-VRP](https://github.com/roeierez/open-vrp) | Optimization Research | [![GitHub stars](https://img.shields.io/github/stars/roeierez/open-vrp?style=social&color=white)](https://github.com/roeierez/open-vrp/stargazers) | Java | Experimental vehicle routing problem solver and heuristics benchmark |
+| 1 | [n8n](https://github.com/n8n-io/n8n) | Workflow Automation | [![GitHub_Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | TypeScript | Fair-code workflow automation for dispatch pipelines |
+| 2 | [Apache Kafka](https://github.com/apache/kafka) | Event Streaming | [![GitHub_Stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers) | Java / Scala | High-throughput distributed event streaming for GPS and order events |
+| 3 | [Node-RED](https://github.com/node-red/node-red) | Event Infrastructure | [![GitHub_Stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers) | JavaScript | Low-code event-driven wiring for telematics and IoT dispatch |
+| 4 | [Temporal](https://github.com/temporalio/temporal) | Workflow Orchestration | [![GitHub_Stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers) | Go | Durable execution platform for long-running dispatch workflows |
+| 5 | [LightGBM](https://github.com/microsoft/LightGBM) | Machine Learning | [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/LightGBM?style=social&color=white)](https://github.com/microsoft/LightGBM/stargazers) | C++ / Python | Fast gradient boosting framework for ETA prediction and travel time |
+| 6 | [NetworkX](https://github.com/networkx/networkx) | Network Analysis | [![GitHub_Stars](https://img.shields.io/github/stars/networkx/networkx?style=social&color=white)](https://github.com/networkx/networkx/stargazers) | Python | Comprehensive graph algorithms and network analysis library |
+| 7 | [SciPy](https://github.com/scipy/scipy) | Scientific Computing | [![GitHub_Stars](https://img.shields.io/github/stars/scipy/scipy?style=social&color=white)](https://github.com/scipy/scipy/stargazers) | Python / C | Fundamental library for scientific computing and optimization |
+| 8 | [Google OR-Tools](https://github.com/google/or-tools) | Optimization Engine | [![GitHub_Stars](https://img.shields.io/github/stars/google/or-tools?style=social&color=white)](https://github.com/google/or-tools/stargazers) | C++ / Python / Java | Industry-standard suite for VRP, CVRP, VRPTW, and integer programming |
+| 9 | [MapLibre GL](https://github.com/maplibre/maplibre-gl-js) | Mapping & Visualization | [![GitHub_Stars](https://img.shields.io/github/stars/maplibre/maplibre-gl-js?style=social&color=white)](https://github.com/maplibre/maplibre-gl-js/stargazers) | TypeScript | Open-source vector tile map SDK for web and mobile dispatch maps |
+| 10 | [OSRM](https://github.com/Project-OSRM/osrm-backend) | Routing Engine | [![GitHub_Stars](https://img.shields.io/github/stars/Project-OSRM/osrm-backend?style=social&color=white)](https://github.com/Project-OSRM/osrm-backend/stargazers) | C++ | Ultra-fast C++ routing engine and distance table calculator on OSM |
+| 11 | [Traccar](https://github.com/traccar/traccar) | GPS / Fleet Telematics | [![GitHub_Stars](https://img.shields.io/github/stars/traccar/traccar?style=social&color=white)](https://github.com/traccar/traccar/stargazers) | Java | Leading open-source GPS tracking system supporting 1500+ device protocols |
+| 12 | [GraphHopper](https://github.com/graphhopper/graphhopper) | Routing Engine | [![GitHub_Stars](https://img.shields.io/github/stars/graphhopper/graphhopper?style=social&color=white)](https://github.com/graphhopper/graphhopper/stargazers) | Java | Fast and memory-efficient routing engine with turn-by-turn directions |
+| 13 | [H3](https://github.com/uber/h3) | Spatial Indexing | [![GitHub_Stars](https://img.shields.io/github/stars/uber/h3?style=social&color=white)](https://github.com/uber/h3/stargazers) | C / Python | Hexagonal hierarchical spatial index for territory optimization & clustering |
+| 14 | [CVXPY](https://github.com/cvxpy/cvxpy) | Mathematical Solver | [![GitHub_Stars](https://img.shields.io/github/stars/cvxpy/cvxpy?style=social&color=white)](https://github.com/cvxpy/cvxpy/stargazers) | Python | Domain-specific modeling language for convex optimization problems |
+| 15 | [Valhalla](https://github.com/valhalla/valhalla) | Routing Engine | [![GitHub_Stars](https://img.shields.io/github/stars/valhalla/valhalla?style=social&color=white)](https://github.com/valhalla/valhalla/stargazers) | C++ | Multimodal open-source routing engine with dynamic tile generation |
+| 16 | [OSMnx](https://github.com/gboeing/osmnx) | Spatial Analysis | [![GitHub_Stars](https://img.shields.io/github/stars/gboeing/osmnx?style=social&color=white)](https://github.com/gboeing/osmnx/stargazers) | Python | Street network retrieval, modeling, and shortest-path analysis from OSM |
+| 17 | [Nominatim](https://github.com/osm-search/Nominatim) | Geocoding | [![GitHub_Stars](https://img.shields.io/github/stars/osm-search/Nominatim?style=social&color=white)](https://github.com/osm-search/Nominatim/stargazers) | C++ / PHP | Official OpenStreetMap search and reverse-geocoding engine |
+| 18 | [Pelias](https://github.com/pelias/pelias) | Geocoding | [![GitHub_Stars](https://img.shields.io/github/stars/pelias/pelias?style=social&color=white)](https://github.com/pelias/pelias/stargazers) | Node.js | Modular, open-source search engine powered by Elasticsearch |
+| 19 | [OptaPlanner / KIE](https://github.com/apache/incubator-kie-optaplanner) | Optimization Engine | [![GitHub_Stars](https://img.shields.io/github/stars/apache/incubator-kie-optaplanner?style=social&color=white)](https://github.com/apache/incubator-kie-optaplanner/stargazers) | Java | AI constraint satisfaction solver for complex enterprise vehicle routing |
+| 20 | [OpenMapTiles](https://github.com/openmaptiles/openmaptiles) | Vector Tiles | [![GitHub_Stars](https://img.shields.io/github/stars/openmaptiles/openmaptiles?style=social&color=white)](https://github.com/openmaptiles/openmaptiles/stargazers) | Shell / Python | Extensible vector tile schema and generator for custom mapping |
+| 21 | [Photon](https://github.com/komoot/photon) | Geocoding | [![GitHub_Stars](https://img.shields.io/github/stars/komoot/photon?style=social&color=white)](https://github.com/komoot/photon/stargazers) | Java | Open-source geocoder based on Elasticsearch and OpenStreetMap data |
+| 22 | [Pyomo](https://github.com/Pyomo/pyomo) | Mathematical Solver | [![GitHub_Stars](https://img.shields.io/github/stars/Pyomo/pyomo?style=social&color=white)](https://github.com/Pyomo/pyomo/stargazers) | Python | Python-based mathematical programming language with solver plugins |
+| 23 | [PuLP](https://github.com/coin-or/pulp) | Mathematical Solver | [![GitHub_Stars](https://img.shields.io/github/stars/coin-or/pulp?style=social&color=white)](https://github.com/coin-or/pulp/stargazers) | Python | Linear programming modeler supporting multiple backend MIP solvers |
+| 24 | [JuMP](https://github.com/jump-dev/JuMP.jl) | Mathematical Solver | [![GitHub_Stars](https://img.shields.io/github/stars/jump-dev/JuMP.jl?style=social&color=white)](https://github.com/jump-dev/JuMP.jl/stargazers) | Julia | Fast mathematical optimization modeling package for operations research |
+| 25 | [openrouteservice](https://github.com/GIScience/openrouteservice) | Routing Engine | [![GitHub_Stars](https://img.shields.io/github/stars/GIScience/openrouteservice?style=social&color=white)](https://github.com/GIScience/openrouteservice/stargazers) | Java | Spatial routing platform with distance matrix, isochrones & elevation |
+| 26 | [OpenRemote](https://github.com/openremote/openremote) | Fleet / IoT Telematics | [![GitHub_Stars](https://img.shields.io/github/stars/openremote/openremote?style=social&color=white)](https://github.com/openremote/openremote/stargazers) | Java | Open-source IoT platform for fleet telematics and smart asset automation |
+| 27 | [VROOM](https://github.com/VROOM-Project/vroom) | Optimization Engine | [![GitHub_Stars](https://img.shields.io/github/stars/VROOM-Project/vroom?style=social&color=white)](https://github.com/VROOM-Project/vroom/stargazers) | C++ | Ultra-fast vehicle routing optimization engine with instant REST API |
+| 28 | [jsprit](https://github.com/graphhopper/jsprit) | Optimization Engine | [![GitHub_Stars](https://img.shields.io/github/stars/graphhopper/jsprit?style=social&color=white)](https://github.com/graphhopper/jsprit/stargazers) | Java | Rich Java vehicle routing toolkit with customizable metaheuristics |
+| 29 | [HiGHS](https://github.com/ERGO-Code/HiGHS) | Mathematical Solver | [![GitHub_Stars](https://img.shields.io/github/stars/ERGO-Code/HiGHS?style=social&color=white)](https://github.com/ERGO-Code/HiGHS/stargazers) | C++ | High-performance open-source linear and mixed-integer programming solver |
+| 30 | [Timefold Solver](https://github.com/TimefoldAI/timefold-solver) | Optimization Engine | [![GitHub_Stars](https://img.shields.io/github/stars/TimefoldAI/timefold-solver?style=social&color=white)](https://github.com/TimefoldAI/timefold-solver/stargazers) | Java / Python | Modern AI optimization engine for fleet scheduling, VRP, and workforce |
+| 31 | [pgRouting](https://github.com/pgRouting/pgrouting) | Routing Engine | [![GitHub_Stars](https://img.shields.io/github/stars/pgRouting/pgrouting?style=social&color=white)](https://github.com/pgRouting/pgrouting/stargazers) | C / C++ / SQL | PostGIS extension adding routing, TSP, and VRP algorithms to PostgreSQL |
+| 32 | [OwnTracks](https://github.com/owntracks/recorder) | Location Telematics | [![GitHub_Stars](https://img.shields.io/github/stars/owntracks/recorder?style=social&color=white)](https://github.com/owntracks/recorder/stargazers) | C | Lightweight private GPS location tracking backend and mobile client |
+| 33 | [CBC](https://github.com/coin-or/Cbc) | Mathematical Solver | [![GitHub_Stars](https://img.shields.io/github/stars/coin-or/Cbc?style=social&color=white)](https://github.com/coin-or/Cbc/stargazers) | C++ | COIN-OR Branch and Cut mixed integer linear programming solver |
+| 34 | [BRouter](https://github.com/abrensch/brouter) | Routing Engine | [![GitHub_Stars](https://img.shields.io/github/stars/abrensch/brouter?style=social&color=white)](https://github.com/abrensch/brouter/stargazers) | Java | Configurable offline routing engine with elevation and profile awareness |
+| 35 | [PyVRP](https://github.com/PyVRP/PyVRP) | Optimization Engine | [![GitHub_Stars](https://img.shields.io/github/stars/PyVRP/PyVRP?style=social&color=white)](https://github.com/PyVRP/PyVRP/stargazers) | Python / C++ | Award-winning hybrid genetic search VRP library for Python |
+| 36 | [MobilityDB](https://github.com/MobilityDB/MobilityDB) | Trajectory Database | [![GitHub_Stars](https://img.shields.io/github/stars/MobilityDB/MobilityDB?style=social&color=white)](https://github.com/MobilityDB/MobilityDB/stargazers) | C / SQL | PostgreSQL/PostGIS extension for moving vehicle trajectories and GPS tracks |
+| 37 | [RoutingKit](https://github.com/RoutingKit/RoutingKit) | Routing Library | [![GitHub_Stars](https://img.shields.io/github/stars/RoutingKit/RoutingKit?style=social&color=white)](https://github.com/RoutingKit/RoutingKit/stargazers) | C++ | C++ routing library for computing shortest paths using contraction hierarchies |
+| 38 | [VRPH](https://github.com/coin-or/VRPH) | Optimization Engine | [![GitHub_Stars](https://img.shields.io/github/stars/coin-or/VRPH?style=social&color=white)](https://github.com/coin-or/VRPH/stargazers) | C++ | COIN-OR library of heuristics for generating solutions to the CVRP |
+| 39 | [OscaR](https://github.com/oscarlib/oscar) | Optimization Engine | [![GitHub_Stars](https://img.shields.io/github/stars/oscarlib/oscar?style=social&color=white)](https://github.com/oscarlib/oscar/stargazers) | Scala | Scala library for constraint programming and combinatorial optimization |
+| 40 | [Open-VRP](https://github.com/roeierez/open-vrp) | Optimization Research | [![GitHub_Stars](https://img.shields.io/github/stars/roeierez/open-vrp?style=social&color=white)](https://github.com/roeierez/open-vrp/stargazers) | Java | Experimental vehicle routing problem solver and heuristics benchmark |
 
 ---
 
@@ -386,7 +386,7 @@ The following core engines provide the algorithmic solving logic for multi-vehic
 
 ---
 
-## 1. Google OR-Tools [![GitHub stars](https://img.shields.io/github/stars/google/or-tools?style=social&color=white)](https://github.com/google/or-tools/stargazers)
+## 1. Google OR-Tools [![GitHub_Stars](https://img.shields.io/github/stars/google/or-tools?style=social&color=white)](https://github.com/google/or-tools/stargazers)
 
 **Google Optimization Tools (OR-Tools)**
 * **GitHub:** https://github.com/google/or-tools
@@ -406,7 +406,7 @@ OR-Tools is the most widely adopted open-source mathematical optimization librar
 
 ---
 
-## 2. OptaPlanner / Apache KIE Ecosystem [![GitHub stars](https://img.shields.io/github/stars/apache/incubator-kie-optaplanner?style=social&color=white)](https://github.com/apache/incubator-kie-optaplanner/stargazers)
+## 2. OptaPlanner / Apache KIE Ecosystem [![GitHub_Stars](https://img.shields.io/github/stars/apache/incubator-kie-optaplanner?style=social&color=white)](https://github.com/apache/incubator-kie-optaplanner/stargazers)
 
 **Enterprise Business Resource Planner & Constraint Solver**
 * **GitHub:** https://github.com/apache/incubator-kie-optaplanner
@@ -424,7 +424,7 @@ OptaPlanner is an enterprise AI constraint solver that optimizes business resour
 
 ---
 
-## 3. VROOM [![GitHub stars](https://img.shields.io/github/stars/VROOM-Project/vroom?style=social&color=white)](https://github.com/VROOM-Project/vroom/stargazers)
+## 3. VROOM [![GitHub_Stars](https://img.shields.io/github/stars/VROOM-Project/vroom?style=social&color=white)](https://github.com/VROOM-Project/vroom/stargazers)
 
 **Vehicle Routing Open-source Optimization Machine**
 * **GitHub:** https://github.com/VROOM-Project/vroom
@@ -443,7 +443,7 @@ VROOM is one of the fastest direct open-source alternatives to commercial SaaS r
 
 ---
 
-## 4. jsprit [![GitHub stars](https://img.shields.io/github/stars/graphhopper/jsprit?style=social&color=white)](https://github.com/graphhopper/jsprit/stargazers)
+## 4. jsprit [![GitHub_Stars](https://img.shields.io/github/stars/graphhopper/jsprit?style=social&color=white)](https://github.com/graphhopper/jsprit/stargazers)
 
 **Java-based Toolkit for Rich Vehicle Routing Problems**
 * **GitHub:** https://github.com/graphhopper/jsprit
@@ -461,7 +461,7 @@ Maintained under the GraphHopper organization, jsprit is a lightweight, flexible
 
 ---
 
-## 5. Timefold Solver [![GitHub stars](https://img.shields.io/github/stars/TimefoldAI/timefold-solver?style=social&color=white)](https://github.com/TimefoldAI/timefold-solver/stargazers)
+## 5. Timefold Solver [![GitHub_Stars](https://img.shields.io/github/stars/TimefoldAI/timefold-solver?style=social&color=white)](https://github.com/TimefoldAI/timefold-solver/stargazers)
 
 **Modern Open-Source AI Solver for Vehicle Routing & Scheduling**
 * **GitHub:** https://github.com/TimefoldAI/timefold-solver
@@ -479,7 +479,7 @@ Timefold Solver is the modern fork and evolution of OptaPlanner, actively mainta
 
 ---
 
-## 6. PyVRP [![GitHub stars](https://img.shields.io/github/stars/PyVRP/PyVRP?style=social&color=white)](https://github.com/PyVRP/PyVRP/stargazers)
+## 6. PyVRP [![GitHub_Stars](https://img.shields.io/github/stars/PyVRP/PyVRP?style=social&color=white)](https://github.com/PyVRP/PyVRP/stargazers)
 
 **State-of-the-Art Vehicle Routing Problem Solver in Python**
 * **GitHub:** https://github.com/PyVRP/PyVRP
@@ -496,7 +496,7 @@ PyVRP is an award-winning open-source package implementing Hybrid Genetic Search
 
 ---
 
-## 7. VRPH [![GitHub stars](https://img.shields.io/github/stars/coin-or/VRPH?style=social&color=white)](https://github.com/coin-or/VRPH/stargazers)
+## 7. VRPH [![GitHub_Stars](https://img.shields.io/github/stars/coin-or/VRPH?style=social&color=white)](https://github.com/coin-or/VRPH/stargazers)
 
 **Open-Source Heuristics Library for the Capacitated VRP**
 * **GitHub:** https://github.com/coin-or/VRPH
@@ -513,7 +513,7 @@ Part of the COIN-OR initiative, VRPH provides classic, fast local search heurist
 
 ---
 
-## 8. OscaR [![GitHub stars](https://img.shields.io/github/stars/oscarlib/oscar?style=social&color=white)](https://github.com/oscarlib/oscar/stargazers)
+## 8. OscaR [![GitHub_Stars](https://img.shields.io/github/stars/oscarlib/oscar?style=social&color=white)](https://github.com/oscarlib/oscar/stargazers)
 
 **Scala Optimization & Constraint Programming Toolkit**
 * **GitHub:** https://github.com/oscarlib/oscar
@@ -530,7 +530,7 @@ OscaR is a versatile Scala toolkit for constraint programming, combinatorial opt
 
 ---
 
-## 9. Open-VRP [![GitHub stars](https://img.shields.io/github/stars/roeierez/open-vrp?style=social&color=white)](https://github.com/roeierez/open-vrp/stargazers)
+## 9. Open-VRP [![GitHub_Stars](https://img.shields.io/github/stars/roeierez/open-vrp?style=social&color=white)](https://github.com/roeierez/open-vrp/stargazers)
 
 **Experimental Vehicle Routing Heuristics & Frameworks**
 * **GitHub:** https://github.com/roeierez/open-vrp
@@ -551,21 +551,21 @@ The following solvers and modeling languages are ranked by GitHub star count (de
 
 | Project | Stars | Primary Role | Supported Languages | License |
 | :--- | :---: | :--- | :--- | :--- |
-| [OR-Tools](https://github.com/google/or-tools) | [![GitHub stars](https://img.shields.io/github/stars/google/or-tools?style=social&color=white)](https://github.com/google/or-tools/stargazers) | CP-SAT solver, VRP engine, and linear/integer programming | C++, Python, Java, C# | Apache-2.0 |
-| [CVXPY](https://github.com/cvxpy/cvxpy) | [![GitHub stars](https://img.shields.io/github/stars/cvxpy/cvxpy?style=social&color=white)](https://github.com/cvxpy/cvxpy/stargazers) | Domain-specific modeling language for convex optimization | Python | Apache-2.0 |
-| [OptaPlanner](https://github.com/apache/incubator-kie-optaplanner) | [![GitHub stars](https://img.shields.io/github/stars/apache/incubator-kie-optaplanner?style=social&color=white)](https://github.com/apache/incubator-kie-optaplanner/stargazers) | Enterprise AI constraint satisfaction & business resource planning | Java | Apache-2.0 |
-| [Pyomo](https://github.com/Pyomo/pyomo) | [![GitHub stars](https://img.shields.io/github/stars/Pyomo/pyomo?style=social&color=white)](https://github.com/Pyomo/pyomo/stargazers) | Robust Python-based mathematical programming modeling language | Python | BSD-3-Clause |
-| [PuLP](https://github.com/coin-or/pulp) | [![GitHub stars](https://img.shields.io/github/stars/coin-or/pulp?style=social&color=white)](https://github.com/coin-or/pulp/stargazers) | Simple, intuitive linear programming modeler with solver plug-ins | Python | MIT |
-| [JuMP](https://github.com/jump-dev/JuMP.jl) | [![GitHub stars](https://img.shields.io/github/stars/jump-dev/JuMP.jl?style=social&color=white)](https://github.com/jump-dev/JuMP.jl/stargazers) | Ultra-fast modeling language for mathematical optimization in Julia | Julia | MPL-2.0 |
-| [VROOM](https://github.com/VROOM-Project/vroom) | [![GitHub stars](https://img.shields.io/github/stars/VROOM-Project/vroom?style=social&color=white)](https://github.com/VROOM-Project/vroom/stargazers) | Ultra-fast heuristic solver for CVRP, VRPTW, and PDPTW | C++ | BSD-2-Clause |
-| [jsprit](https://github.com/graphhopper/jsprit) | [![GitHub stars](https://img.shields.io/github/stars/graphhopper/jsprit?style=social&color=white)](https://github.com/graphhopper/jsprit/stargazers) | Rich Java-based vehicle routing toolkit using Ruin-and-Recreate | Java | Apache-2.0 |
-| [HiGHS](https://github.com/ERGO-Code/HiGHS) | [![GitHub stars](https://img.shields.io/github/stars/ERGO-Code/HiGHS?style=social&color=white)](https://github.com/ERGO-Code/HiGHS/stargazers) | High-performance open-source linear and mixed-integer solver | C++ | MIT |
-| [Timefold](https://github.com/TimefoldAI/timefold-solver) | [![GitHub stars](https://img.shields.io/github/stars/TimefoldAI/timefold-solver?style=social&color=white)](https://github.com/TimefoldAI/timefold-solver/stargazers) | Modern AI optimization engine for fleet scheduling & VRP | Java, Python | Apache-2.0 |
-| [SCIP](https://github.com/scipopt/scip) | [![GitHub stars](https://img.shields.io/github/stars/scipopt/scip?style=social&color=white)](https://github.com/scipopt/scip/stargazers) | Leading non-commercial/academic MIP and branch-cut-and-price framework | C, C++ | Apache-2.0 |
-| [CBC](https://github.com/coin-or/Cbc) | [![GitHub stars](https://img.shields.io/github/stars/coin-or/Cbc?style=social&color=white)](https://github.com/coin-or/Cbc/stargazers) | COIN-OR branch-and-cut solver for mixed integer programs | C++ | EPL-2.0 |
-| [PyVRP](https://github.com/PyVRP/PyVRP) | [![GitHub stars](https://img.shields.io/github/stars/PyVRP/PyVRP?style=social&color=white)](https://github.com/PyVRP/PyVRP/stargazers) | Award-winning Hybrid Genetic Search solver for rich VRP | Python, C++ | MIT |
-| [VRPH](https://github.com/coin-or/VRPH) | [![GitHub stars](https://img.shields.io/github/stars/coin-or/VRPH?style=social&color=white)](https://github.com/coin-or/VRPH/stargazers) | Library of local search heuristics for the Capacitated VRP | C++ | EPL-2.0 |
-| [OscaR](https://github.com/oscarlib/oscar) | [![GitHub stars](https://img.shields.io/github/stars/oscarlib/oscar?style=social&color=white)](https://github.com/oscarlib/oscar/stargazers) | Constraint programming toolkit with specialized routing extension | Scala | LGPL-2.1 |
+| [OR-Tools](https://github.com/google/or-tools) | [![GitHub_Stars](https://img.shields.io/github/stars/google/or-tools?style=social&color=white)](https://github.com/google/or-tools/stargazers) | CP-SAT solver, VRP engine, and linear/integer programming | C++, Python, Java, C# | Apache-2.0 |
+| [CVXPY](https://github.com/cvxpy/cvxpy) | [![GitHub_Stars](https://img.shields.io/github/stars/cvxpy/cvxpy?style=social&color=white)](https://github.com/cvxpy/cvxpy/stargazers) | Domain-specific modeling language for convex optimization | Python | Apache-2.0 |
+| [OptaPlanner](https://github.com/apache/incubator-kie-optaplanner) | [![GitHub_Stars](https://img.shields.io/github/stars/apache/incubator-kie-optaplanner?style=social&color=white)](https://github.com/apache/incubator-kie-optaplanner/stargazers) | Enterprise AI constraint satisfaction & business resource planning | Java | Apache-2.0 |
+| [Pyomo](https://github.com/Pyomo/pyomo) | [![GitHub_Stars](https://img.shields.io/github/stars/Pyomo/pyomo?style=social&color=white)](https://github.com/Pyomo/pyomo/stargazers) | Robust Python-based mathematical programming modeling language | Python | BSD-3-Clause |
+| [PuLP](https://github.com/coin-or/pulp) | [![GitHub_Stars](https://img.shields.io/github/stars/coin-or/pulp?style=social&color=white)](https://github.com/coin-or/pulp/stargazers) | Simple, intuitive linear programming modeler with solver plug-ins | Python | MIT |
+| [JuMP](https://github.com/jump-dev/JuMP.jl) | [![GitHub_Stars](https://img.shields.io/github/stars/jump-dev/JuMP.jl?style=social&color=white)](https://github.com/jump-dev/JuMP.jl/stargazers) | Ultra-fast modeling language for mathematical optimization in Julia | Julia | MPL-2.0 |
+| [VROOM](https://github.com/VROOM-Project/vroom) | [![GitHub_Stars](https://img.shields.io/github/stars/VROOM-Project/vroom?style=social&color=white)](https://github.com/VROOM-Project/vroom/stargazers) | Ultra-fast heuristic solver for CVRP, VRPTW, and PDPTW | C++ | BSD-2-Clause |
+| [jsprit](https://github.com/graphhopper/jsprit) | [![GitHub_Stars](https://img.shields.io/github/stars/graphhopper/jsprit?style=social&color=white)](https://github.com/graphhopper/jsprit/stargazers) | Rich Java-based vehicle routing toolkit using Ruin-and-Recreate | Java | Apache-2.0 |
+| [HiGHS](https://github.com/ERGO-Code/HiGHS) | [![GitHub_Stars](https://img.shields.io/github/stars/ERGO-Code/HiGHS?style=social&color=white)](https://github.com/ERGO-Code/HiGHS/stargazers) | High-performance open-source linear and mixed-integer solver | C++ | MIT |
+| [Timefold](https://github.com/TimefoldAI/timefold-solver) | [![GitHub_Stars](https://img.shields.io/github/stars/TimefoldAI/timefold-solver?style=social&color=white)](https://github.com/TimefoldAI/timefold-solver/stargazers) | Modern AI optimization engine for fleet scheduling & VRP | Java, Python | Apache-2.0 |
+| [SCIP](https://github.com/scipopt/scip) | [![GitHub_Stars](https://img.shields.io/github/stars/scipopt/scip?style=social&color=white)](https://github.com/scipopt/scip/stargazers) | Leading non-commercial/academic MIP and branch-cut-and-price framework | C, C++ | Apache-2.0 |
+| [CBC](https://github.com/coin-or/Cbc) | [![GitHub_Stars](https://img.shields.io/github/stars/coin-or/Cbc?style=social&color=white)](https://github.com/coin-or/Cbc/stargazers) | COIN-OR branch-and-cut solver for mixed integer programs | C++ | EPL-2.0 |
+| [PyVRP](https://github.com/PyVRP/PyVRP) | [![GitHub_Stars](https://img.shields.io/github/stars/PyVRP/PyVRP?style=social&color=white)](https://github.com/PyVRP/PyVRP/stargazers) | Award-winning Hybrid Genetic Search solver for rich VRP | Python, C++ | MIT |
+| [VRPH](https://github.com/coin-or/VRPH) | [![GitHub_Stars](https://img.shields.io/github/stars/coin-or/VRPH?style=social&color=white)](https://github.com/coin-or/VRPH/stargazers) | Library of local search heuristics for the Capacitated VRP | C++ | EPL-2.0 |
+| [OscaR](https://github.com/oscarlib/oscar) | [![GitHub_Stars](https://img.shields.io/github/stars/oscarlib/oscar?style=social&color=white)](https://github.com/oscarlib/oscar/stargazers) | Constraint programming toolkit with specialized routing extension | Scala | LGPL-2.1 |
 
 ---
 
@@ -580,7 +580,7 @@ The leading open-source routing engines are ranked below by GitHub star count (d
 
 ---
 
-## 1. OSRM [![GitHub stars](https://img.shields.io/github/stars/Project-OSRM/osrm-backend?style=social&color=white)](https://github.com/Project-OSRM/osrm-backend/stargazers)
+## 1. OSRM [![GitHub_Stars](https://img.shields.io/github/stars/Project-OSRM/osrm-backend?style=social&color=white)](https://github.com/Project-OSRM/osrm-backend/stargazers)
 
 **Open Source Routing Machine**
 * **GitHub:** https://github.com/Project-OSRM/osrm-backend
@@ -599,7 +599,7 @@ OSRM is an ultra-high-performance routing engine designed for OpenStreetMap data
 
 ---
 
-## 2. GraphHopper [![GitHub stars](https://img.shields.io/github/stars/graphhopper/graphhopper?style=social&color=white)](https://github.com/graphhopper/graphhopper/stargazers)
+## 2. GraphHopper [![GitHub_Stars](https://img.shields.io/github/stars/graphhopper/graphhopper?style=social&color=white)](https://github.com/graphhopper/graphhopper/stargazers)
 
 **Fast and Memory-Efficient Java Routing Engine**
 * **GitHub:** https://github.com/graphhopper/graphhopper
@@ -618,7 +618,7 @@ GraphHopper is a flexible, memory-efficient routing engine written in Java that 
 
 ---
 
-## 3. Valhalla [![GitHub stars](https://img.shields.io/github/stars/valhalla/valhalla?style=social&color=white)](https://github.com/valhalla/valhalla/stargazers)
+## 3. Valhalla [![GitHub_Stars](https://img.shields.io/github/stars/valhalla/valhalla?style=social&color=white)](https://github.com/valhalla/valhalla/stargazers)
 
 **Multimodal Routing Engine with Dynamic Tile Hierarchy**
 * **GitHub:** https://github.com/valhalla/valhalla
@@ -637,7 +637,7 @@ Originally created by Mapzen, Valhalla is a modern, modular C++ routing engine b
 
 ---
 
-## 4. openrouteservice (ORS) [![GitHub stars](https://img.shields.io/github/stars/GIScience/openrouteservice?style=social&color=white)](https://github.com/GIScience/openrouteservice/stargazers)
+## 4. openrouteservice (ORS) [![GitHub_Stars](https://img.shields.io/github/stars/GIScience/openrouteservice?style=social&color=white)](https://github.com/GIScience/openrouteservice/stargazers)
 
 **Spatial Routing Services Stack from Heidelberg University**
 * **GitHub:** https://github.com/GIScience/openrouteservice
@@ -656,7 +656,7 @@ Developed by the Heidelberg Institute for Geoinformation Technology (HeiGIT), Op
 
 ---
 
-## 5. pgRouting [![GitHub stars](https://img.shields.io/github/stars/pgRouting/pgrouting?style=social&color=white)](https://github.com/pgRouting/pgrouting/stargazers)
+## 5. pgRouting [![GitHub_Stars](https://img.shields.io/github/stars/pgRouting/pgrouting?style=social&color=white)](https://github.com/pgRouting/pgrouting/stargazers)
 
 **Geospatial Routing Inside PostgreSQL / PostGIS**
 * **GitHub:** https://github.com/pgRouting/pgrouting
@@ -675,7 +675,7 @@ pgRouting extends PostgreSQL and PostGIS to provide geospatial routing and graph
 
 ---
 
-## 6. BRouter [![GitHub stars](https://img.shields.io/github/stars/abrensch/brouter?style=social&color=white)](https://github.com/abrensch/brouter/stargazers)
+## 6. BRouter [![GitHub_Stars](https://img.shields.io/github/stars/abrensch/brouter?style=social&color=white)](https://github.com/abrensch/brouter/stargazers)
 
 **Configurable Offline Routing Engine**
 * **GitHub:** https://github.com/abrensch/brouter
@@ -692,7 +692,7 @@ BRouter is a lightweight, offline-capable routing engine that emphasizes fine-gr
 
 ---
 
-## 7. RoutingKit [![GitHub stars](https://img.shields.io/github/stars/RoutingKit/RoutingKit?style=social&color=white)](https://github.com/RoutingKit/RoutingKit/stargazers)
+## 7. RoutingKit [![GitHub_Stars](https://img.shields.io/github/stars/RoutingKit/RoutingKit?style=social&color=white)](https://github.com/RoutingKit/RoutingKit/stargazers)
 
 **High-Performance C++ Routing Building Blocks**
 * **GitHub:** https://github.com/RoutingKit/RoutingKit
@@ -718,7 +718,7 @@ The leading open-source mapping and geospatial components are ranked below by Gi
 
 ---
 
-## 1. MapLibre GL [![GitHub stars](https://img.shields.io/github/stars/maplibre/maplibre-gl-js?style=social&color=white)](https://github.com/maplibre/maplibre-gl-js/stargazers)
+## 1. MapLibre GL [![GitHub_Stars](https://img.shields.io/github/stars/maplibre/maplibre-gl-js?style=social&color=white)](https://github.com/maplibre/maplibre-gl-js/stargazers)
 
 **Open-Source WebGL & Native Vector Map Rendering SDK**
 * **GitHub:** https://github.com/maplibre/maplibre-gl-js
@@ -736,7 +736,7 @@ The open-source community fork of Mapbox GL, MapLibre provides GPU-accelerated v
 
 ---
 
-## 2. H3 [![GitHub stars](https://img.shields.io/github/stars/uber/h3?style=social&color=white)](https://github.com/uber/h3/stargazers)
+## 2. H3 [![GitHub_Stars](https://img.shields.io/github/stars/uber/h3?style=social&color=white)](https://github.com/uber/h3/stargazers)
 
 **Hexagonal Hierarchical Spatial Index**
 * **GitHub:** https://github.com/uber/h3
@@ -753,7 +753,7 @@ Created by Uber, H3 is an open-source discrete global grid system that partition
 
 ---
 
-## 3. OSMnx [![GitHub stars](https://img.shields.io/github/stars/gboeing/osmnx?style=social&color=white)](https://github.com/gboeing/osmnx/stargazers)
+## 3. OSMnx [![GitHub_Stars](https://img.shields.io/github/stars/gboeing/osmnx?style=social&color=white)](https://github.com/gboeing/osmnx/stargazers)
 
 **Python Spatial Road Network Analysis & Modeling**
 * **GitHub:** https://github.com/gboeing/osmnx
@@ -770,7 +770,7 @@ OSMnx allows developers to download, model, analyze, and visualize street networ
 
 ---
 
-## 4. Nominatim [![GitHub stars](https://img.shields.io/github/stars/osm-search/Nominatim?style=social&color=white)](https://github.com/osm-search/Nominatim/stargazers)
+## 4. Nominatim [![GitHub_Stars](https://img.shields.io/github/stars/osm-search/Nominatim?style=social&color=white)](https://github.com/osm-search/Nominatim/stargazers)
 
 **Official OpenStreetMap Search and Reverse-Geocoding Engine**
 * **GitHub:** https://github.com/osm-search/Nominatim
@@ -787,7 +787,7 @@ Nominatim powers the search bar on OpenStreetMap.org and is the standard self-ho
 
 ---
 
-## 5. Pelias [![GitHub stars](https://img.shields.io/github/stars/pelias/pelias?style=social&color=white)](https://github.com/pelias/pelias/stargazers)
+## 5. Pelias [![GitHub_Stars](https://img.shields.io/github/stars/pelias/pelias?style=social&color=white)](https://github.com/pelias/pelias/stargazers)
 
 **Modular, Open-Source Geocoder Powered by Elasticsearch**
 * **GitHub:** https://github.com/pelias/pelias
@@ -804,7 +804,7 @@ Originally developed by Mapzen, Pelias is a modular, production-ready geocoding 
 
 ---
 
-## 6. OpenMapTiles [![GitHub stars](https://img.shields.io/github/stars/openmaptiles/openmaptiles?style=social&color=white)](https://github.com/openmaptiles/openmaptiles/stargazers)
+## 6. OpenMapTiles [![GitHub_Stars](https://img.shields.io/github/stars/openmaptiles/openmaptiles?style=social&color=white)](https://github.com/openmaptiles/openmaptiles/stargazers)
 
 **Extensible Vector Tile Generator for Self-Hosted Maps**
 * **GitHub:** https://github.com/openmaptiles/openmaptiles
@@ -821,7 +821,7 @@ OpenMapTiles provides an open schema and pipeline to convert raw OSM data into v
 
 ---
 
-## 7. Photon [![GitHub stars](https://img.shields.io/github/stars/komoot/photon?style=social&color=white)](https://github.com/komoot/photon/stargazers)
+## 7. Photon [![GitHub_Stars](https://img.shields.io/github/stars/komoot/photon?style=social&color=white)](https://github.com/komoot/photon/stargazers)
 
 **Fast Elasticsearch Geocoder for OpenStreetMap**
 * **GitHub:** https://github.com/komoot/photon
@@ -858,7 +858,7 @@ The leading open-source fleet and telematics solutions are ranked below by GitHu
 
 ---
 
-## 1. Traccar [![GitHub stars](https://img.shields.io/github/stars/traccar/traccar?style=social&color=white)](https://github.com/traccar/traccar/stargazers)
+## 1. Traccar [![GitHub_Stars](https://img.shields.io/github/stars/traccar/traccar?style=social&color=white)](https://github.com/traccar/traccar/stargazers)
 
 **Modern Open-Source GPS Fleet Tracking System**
 * **GitHub:** https://github.com/traccar/traccar
@@ -876,7 +876,7 @@ Traccar is the most popular open-source GPS tracking system in the world. It sup
 
 ---
 
-## 2. OpenRemote [![GitHub stars](https://img.shields.io/github/stars/openremote/openremote?style=social&color=white)](https://github.com/openremote/openremote/stargazers)
+## 2. OpenRemote [![GitHub_Stars](https://img.shields.io/github/stars/openremote/openremote?style=social&color=white)](https://github.com/openremote/openremote/stargazers)
 
 **Open-Source IoT & Fleet Automation Platform**
 * **GitHub:** https://github.com/openremote/openremote
@@ -893,7 +893,7 @@ OpenRemote is an enterprise IoT platform designed for smart cities, fleet manage
 
 ---
 
-## 3. OwnTracks [![GitHub stars](https://img.shields.io/github/stars/owntracks/recorder?style=social&color=white)](https://github.com/owntracks/recorder/stargazers)
+## 3. OwnTracks [![GitHub_Stars](https://img.shields.io/github/stars/owntracks/recorder?style=social&color=white)](https://github.com/owntracks/recorder/stargazers)
 
 **Private, Open-Source Location Tracking Engine**
 * **GitHub:** https://github.com/owntracks/recorder
@@ -910,7 +910,7 @@ OwnTracks provides open-source mobile clients (iOS/Android) and lightweight back
 
 ---
 
-## 4. MobilityDB [![GitHub stars](https://img.shields.io/github/stars/MobilityDB/MobilityDB?style=social&color=white)](https://github.com/MobilityDB/MobilityDB/stargazers)
+## 4. MobilityDB [![GitHub_Stars](https://img.shields.io/github/stars/MobilityDB/MobilityDB?style=social&color=white)](https://github.com/MobilityDB/MobilityDB/stargazers)
 
 **Moving Object Database Extension for PostgreSQL / PostGIS**
 * **GitHub:** https://github.com/MobilityDB/MobilityDB
@@ -946,9 +946,9 @@ Territory planning partitions a delivery region into balanced, compact zones ass
 
 The primary open-source tools for territory management include:
 
-* **[H3](https://github.com/uber/h3)** [![GitHub stars](https://img.shields.io/github/stars/uber/h3?style=social&color=white)](https://github.com/uber/h3/stargazers) — Uber's hexagonal spatial index for discrete spatial partitioning, balanced clustering, and compact territory definition.
+* **[H3](https://github.com/uber/h3)** [![GitHub_Stars](https://img.shields.io/github/stars/uber/h3?style=social&color=white)](https://github.com/uber/h3/stargazers) — Uber's hexagonal spatial index for discrete spatial partitioning, balanced clustering, and compact territory definition.
 * **[Open Door Logistics Studio](https://github.com/opendoorlogistics)** — Classic open-source standalone desktop application for territory design, sales territory optimization, and vehicle routing.
-* **[OSMnx](https://github.com/gboeing/osmnx)** [![GitHub stars](https://img.shields.io/github/stars/gboeing/osmnx?style=social&color=white)](https://github.com/gboeing/osmnx/stargazers) — Road-network topology analysis for calculating street-level travel distances across boundary polygons.
+* **[OSMnx](https://github.com/gboeing/osmnx)** [![GitHub_Stars](https://img.shields.io/github/stars/gboeing/osmnx?style=social&color=white)](https://github.com/gboeing/osmnx/stargazers) — Road-network topology analysis for calculating street-level travel distances across boundary polygons.
 
 ---
 
@@ -960,13 +960,13 @@ The following mathematical and scientific data science libraries are widely util
 
 | Library | Stars | Primary Focus | Language | License |
 | :--- | :---: | :--- | :--- | :--- |
-| [LightGBM](https://github.com/microsoft/LightGBM) | [![GitHub stars](https://img.shields.io/github/stars/microsoft/LightGBM?style=social&color=white)](https://github.com/microsoft/LightGBM/stargazers) | High-speed gradient boosting for travel-time & ETA machine learning models | C++, Python | MIT |
-| [NetworkX](https://github.com/networkx/networkx) | [![GitHub stars](https://img.shields.io/github/stars/networkx/networkx?style=social&color=white)](https://github.com/networkx/networkx/stargazers) | Graph theory algorithms, shortest paths, and network topology analysis | Python | BSD-3-Clause |
-| [SciPy](https://github.com/scipy/scipy) | [![GitHub stars](https://img.shields.io/github/stars/scipy/scipy?style=social&color=white)](https://github.com/scipy/scipy/stargazers) | Scientific computing, sparse matrix handling, and numerical optimization routines | Python, C | BSD-3-Clause |
-| [CVXPY](https://github.com/cvxpy/cvxpy) | [![GitHub stars](https://img.shields.io/github/stars/cvxpy/cvxpy?style=social&color=white)](https://github.com/cvxpy/cvxpy/stargazers) | Convex optimization modeling with automatic transformation to backend solvers | Python | Apache-2.0 |
-| [OSMnx](https://github.com/gboeing/osmnx) | [![GitHub stars](https://img.shields.io/github/stars/gboeing/osmnx?style=social&color=white)](https://github.com/gboeing/osmnx/stargazers) | Python library to retrieve, model, and analyze street networks from OSM | Python | MIT |
-| [Pyomo](https://github.com/Pyomo/pyomo) | [![GitHub stars](https://img.shields.io/github/stars/Pyomo/pyomo?style=social&color=white)](https://github.com/Pyomo/pyomo/stargazers) | Comprehensive optimization modeling language with linear/nonlinear solver integration | Python | BSD-3-Clause |
-| [PuLP](https://github.com/coin-or/pulp) | [![GitHub stars](https://img.shields.io/github/stars/coin-or/pulp?style=social&color=white)](https://github.com/coin-or/pulp/stargazers) | Linear programming modeler supporting CBC, GLPK, HiGHS, and commercial solvers | Python | MIT |
+| [LightGBM](https://github.com/microsoft/LightGBM) | [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/LightGBM?style=social&color=white)](https://github.com/microsoft/LightGBM/stargazers) | High-speed gradient boosting for travel-time & ETA machine learning models | C++, Python | MIT |
+| [NetworkX](https://github.com/networkx/networkx) | [![GitHub_Stars](https://img.shields.io/github/stars/networkx/networkx?style=social&color=white)](https://github.com/networkx/networkx/stargazers) | Graph theory algorithms, shortest paths, and network topology analysis | Python | BSD-3-Clause |
+| [SciPy](https://github.com/scipy/scipy) | [![GitHub_Stars](https://img.shields.io/github/stars/scipy/scipy?style=social&color=white)](https://github.com/scipy/scipy/stargazers) | Scientific computing, sparse matrix handling, and numerical optimization routines | Python, C | BSD-3-Clause |
+| [CVXPY](https://github.com/cvxpy/cvxpy) | [![GitHub_Stars](https://img.shields.io/github/stars/cvxpy/cvxpy?style=social&color=white)](https://github.com/cvxpy/cvxpy/stargazers) | Convex optimization modeling with automatic transformation to backend solvers | Python | Apache-2.0 |
+| [OSMnx](https://github.com/gboeing/osmnx) | [![GitHub_Stars](https://img.shields.io/github/stars/gboeing/osmnx?style=social&color=white)](https://github.com/gboeing/osmnx/stargazers) | Python library to retrieve, model, and analyze street networks from OSM | Python | MIT |
+| [Pyomo](https://github.com/Pyomo/pyomo) | [![GitHub_Stars](https://img.shields.io/github/stars/Pyomo/pyomo?style=social&color=white)](https://github.com/Pyomo/pyomo/stargazers) | Comprehensive optimization modeling language with linear/nonlinear solver integration | Python | BSD-3-Clause |
+| [PuLP](https://github.com/coin-or/pulp) | [![GitHub_Stars](https://img.shields.io/github/stars/coin-or/pulp?style=social&color=white)](https://github.com/coin-or/pulp/stargazers) | Linear programming modeler supporting CBC, GLPK, HiGHS, and commercial solvers | Python | MIT |
 
 ---
 
@@ -980,7 +980,7 @@ The leading open-source workflow and messaging solutions are ranked below by Git
 
 ---
 
-## 1. n8n [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)
+## 1. n8n [![GitHub_Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)
 
 **Fair-Code Workflow Automation Platform**
 * **GitHub:** https://github.com/n8n-io/n8n
@@ -997,7 +997,7 @@ n8n is an intuitive, extendable workflow automation tool with hundreds of pre-bu
 
 ---
 
-## 2. Apache Kafka [![GitHub stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers)
+## 2. Apache Kafka [![GitHub_Stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers)
 
 **Distributed Event Streaming Platform**
 * **GitHub:** https://github.com/apache/kafka
@@ -1014,7 +1014,7 @@ Apache Kafka is the gold standard for high-throughput, fault-tolerant event stre
 
 ---
 
-## 3. Node-RED [![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)
+## 3. Node-RED [![GitHub_Stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)
 
 **Low-Code Event-Driven Wiring Tool**
 * **GitHub:** https://github.com/node-red/node-red
@@ -1030,7 +1030,7 @@ Node-RED provides a browser-based flow editor that makes it easy to wire togethe
 
 ---
 
-## 4. Temporal [![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)
+## 4. Temporal [![GitHub_Stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)
 
 **Durable Execution & Workflow Orchestration Platform**
 * **GitHub:** https://github.com/temporalio/temporal
