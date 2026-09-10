@@ -1,112 +1,75 @@
-# Awesome-Route-Optimization-Engine
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Route Optimization Engine Banner - Open-Source VRP Solvers and Fleet Routing Architecture" width="100%" />
+</p>
 
-## Top Route Optimization Engines — README.md
+# 🚀 Awesome Route Optimization Engine
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Route-Optimization-Engine/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Route-Optimization-Engine?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Route-Optimization-Engine/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Route-Optimization-Engine?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Route-Optimization-Engine/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Route-Optimization-Engine?style=flat-square" alt="GitHub Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Route-Optimization-Engine/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 📍 Leading Route Optimization Engines, VRP Solvers, & Fleet Dispatch Architectures
 
-A comprehensive guide to **route optimization, vehicle routing, fleet routing, last-mile delivery optimization, dispatch optimization, and open-source alternatives** to leading commercial platforms such as **OptimoRoute, Routific, Onfleet, Circuit, FarEye, NextBillion.ai, MyRouteOnline, WorkWave Route Manager, PTV Route Optimiser, and Upper Route Planner**.
+A curated collection, benchmark, and comprehensive engineering guide to **route optimization, vehicle routing problems (VRP, CVRP, VRPTW, PDPTW), fleet dispatching, last-mile delivery algorithms, dynamic re-routing, and production-grade open-source alternatives** to commercial platforms such as **OptimoRoute, Routific, Onfleet, Circuit, FarEye, NextBillion.ai, MyRouteOnline, WorkWave Route Manager, PTV Route Optimiser, and Upper Route Planner**.
 
+> 💡 **Primary Emphasis:** Open-source route optimization engines (Google OR-Tools, VROOM, jsprit, Timefold, PyVRP), road-network routing engines (OSRM, GraphHopper, Valhalla, pgRouting), mapping & spatial indexing stacks (OpenStreetMap, Nominatim, MapLibre, H3, OSMnx), and composable architecture building blocks to design and self-host complete alternatives to proprietary commercial platforms.
 
+---
 
-> **Primary emphasis:** Open-source route optimization engines, solvers, routing engines, mapping stacks, and composable building blocks that can be self-hosted and integrated into a complete alternative to commercial route-planning platforms.
+## 📑 Table of Contents
 
-
+* [❓ What Is Route Optimization?](#-what-is-route-optimization)
+* [💼 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+* [🗺️ Open-Source Ecosystem](#-open-source)
+  * [🏆 Open-Source Star Leaderboard](#-open-source-star-leaderboard)
+  * [⚡ Full Route Optimization Engines](#-full-route-optimization-engines)
+  * [🧮 Mathematical Optimization Solvers](#-mathematical-optimization-solvers)
+  * [🛣️ Routing / Road-Network Engines](#-routing--road-network-engines)
+  * [🌍 Mapping / Geocoding / Matrix](#-mapping--geocoding--matrix)
+  * [🚚 Fleet / Dispatch / Delivery Platforms](#-fleet--dispatch--delivery-platforms)
+  * [📐 Territory Planning](#-territory-planning)
+  * [🔬 Optimization & Data Science Libraries](#-optimization--data-science-libraries)
+  * [🔄 Workflow / Event Infrastructure](#-workflow--event-infrastructure)
+* [🔄 Commercial → Open-Source Mapping](#-commercial--open-source-mapping)
+* [🧩 Route Optimization Problem Types](#-route-optimization-problem-types)
+* [🏗️ Core Architecture](#-core-architecture)
+* [🏛️ Reference Architectures](#-reference-architecture)
+* [📋 Route Optimization Workflow](#-route-optimization-workflow)
+* [⚡ Dynamic Dispatch Architecture](#-dynamic-dispatch-architecture)
+* [📦 Last-Mile Delivery Architecture](#-last-mile-delivery-architecture)
+* [🎯 Sales / Service Territory Optimization](#-sales--service-territory-optimization)
+* [📊 Capability Matrix](#-capability-matrix)
+* [🏆 Recommended Open-Source Stacks](#-recommended-open-source-stacks)
+* [💡 Best Open-Source Choices by Use Case](#-best-open-source-choices-by-use-case)
+* [⚖️ What Open Source Can and Cannot Replace](#-what-open-source-can-and-cannot-replace)
+* [📦 Route Data Model](#-route-data-model)
+* [🎯 Optimization Objective Functions](#-optimization-objective-functions)
+* [🔒 Constraints](#-constraints)
+* [⏱️ Real-Time Reoptimization](#-real-time-reoptimization)
+* [🌐 Geocoding and Travel-Time Data](#-geocoding-and-travel-time-data)
+* [🚗 ETA and Traffic](#-eta-and-traffic)
+* [🚛 Fleet Management Integration](#-fleet-management-integration)
+* [📱 Driver / Mobile Applications](#-driver--mobile-applications)
+* [🛡️ Security & Compliance](#-security--compliance)
+* [📈 Scalability](#-scalability)
+* [📄 Licensing](#-licensing)
+* [📚 Open-Source Ecosystem Summary](#-open-source-ecosystem-summary)
+* [🥇 Open-Source Shortlist](#-open-source-shortlist)
+* [🏁 Conclusion](#-conclusion)
+* [📈 Star History](#-star-history)
+* [🤝 Contributing](#-contributing)
+* [⚠️ Disclaimer](#-disclaimer)
 
 ---
 
 
 
-## Table of Contents
-
-
-
-* [What Is Route Optimization?](#what-is-route-optimization)
-
-* [SaaS / Hosted Platforms](#saas--hosted-platforms)
-
-* [Open-Source](#open-source)
-
-
-
-  * [Full Route Optimization Engines](#full-route-optimization-engines)
-
-  * [Mathematical Optimization Solvers](#mathematical-optimization-solvers)
-
-  * [Routing / Road-Network Engines](#routing--road-network-engines)
-
-  * [Mapping / Geocoding / Matrix](#mapping--geocoding--matrix)
-
-  * [Fleet / Dispatch / Delivery Platforms](#fleet--dispatch--delivery-platforms)
-
-  * [Territory Planning](#territory-planning)
-
-  * [Optimization & Data Science Libraries](#optimization--data-science-libraries)
-
-  * [Workflow / Event Infrastructure](#workflow--event-infrastructure)
-
-* [Commercial → Open-Source Mapping](#commercial--open-source-mapping)
-
-* [Route Optimization Problem Types](#route-optimization-problem-types)
-
-* [Core Architecture](#core-architecture)
-
-* [Reference Architectures](#reference-architectures)
-
-* [Route Optimization Workflow](#route-optimization-workflow)
-
-* [Dynamic Dispatch Architecture](#dynamic-dispatch-architecture)
-
-* [Last-Mile Delivery Architecture](#last-mile-delivery-architecture)
-
-* [Sales / Service Territory Optimization](#sales--service-territory-optimization)
-
-* [Capability Matrix](#capability-matrix)
-
-* [Recommended Open-Source Stacks](#recommended-open-source-stacks)
-
-* [Best Open-Source Choices by Use Case](#best-open-source-choices-by-use-case)
-
-* [What Open Source Can and Cannot Replace](#what-open-source-can-and-cannot-replace)
-
-* [Route Data Model](#route-data-model)
-
-* [Optimization Objective Functions](#optimization-objective-functions)
-
-* [Constraints](#constraints)
-
-* [Real-Time Reoptimization](#real-time-reoptimization)
-
-* [Geocoding and Travel-Time Data](#geocoding-and-travel-time-data)
-
-* [ETA and Traffic](#eta-and-traffic)
-
-* [Fleet Management Integration](#fleet-management-integration)
-
-* [Driver / Mobile Applications](#driver--mobile-applications)
-
-* [Security & Compliance](#security--compliance)
-
-* [Scalability](#scalability)
-
-* [Licensing](#licensing)
-
-* [Open-Source Ecosystem Summary](#open-source-ecosystem-summary)
-
-* [Open-Source Shortlist](#open-source-shortlist)
-
-* [Conclusion](#conclusion)
-
-* [Contributing](#contributing)
-
-* [Disclaimer](#disclaimer)
-
-
-
----
-
-
-
-# What Is Route Optimization?
+# ❓ What Is Route Optimization?
 
 
 
@@ -274,7 +237,7 @@ A commercial platform normally combines several layers:
 
 
 
-# SaaS / Hosted Platforms
+# 💼 SaaS / Hosted Platforms
 
 
 
@@ -295,7 +258,6 @@ The following are major commercial or hosted platforms in route optimization, de
 | [Bringg](https://www.bringg.com/) | Delivery orchestration | Last-mile delivery | **Valuation: ~$1.0B** (Series E Unicorn) · Rev: ~$45M–$60M ARR | Starts at ~$10,000/year (~$833/month base contract benchmark; average enterprise contract ~$20,000/year) | Free custom sales demo; 14-to-30 day pilot evaluation for qualified enterprise accounts; no free-forever plan |
 | [Omnitracs](https://www.omnitracs.com/) | Fleet management | Routing and dispatch | **Valuation: ~$800M+** (Acquired by Solera) · Rev: ~$180M–$200M/yr | Starts at ~$30–$40/vehicle/month (telematics/dispatch tier; Roadnet Transportation Suite benchmark starts at $500/month) | Free custom product demo; 14-to-30 day fleet pilot upon sales agreement; no free-forever plan |
 | [FarEye](https://fareye.com/) | Logistics orchestration | Enterprise logistics | **Valuation: ~$400M–$500M** (Series E) · Rev: ~$35M–$45M ARR | Enterprise contracts start at ~$10,000/year (~$833/month base platform fee benchmark; Capterra listed baseline $100,000 enterprise deployment) | Free guided live demo; 14-to-30 day scoped pilot/POC trial for qualified enterprise prospects; no free-forever plan |
-| [FarEye](https://fareye.com/) | Logistics platform | Delivery orchestration | **Valuation: ~$400M–$500M** (Series E) · Rev: ~$35M–$45M ARR | Starts at ~$10,000/year (~$833/month base platform fee benchmark; Capterra listed baseline $100,000 enterprise deployment) | Free guided live demo; 14-to-30 day scoped pilot/POC trial for qualified enterprise prospects; no free-forever plan |
 | [PTV Logistics](https://www.ptvlogistics.com/) | Transport planning | Fleet optimization | **Valuation: ~€300M–€400M** (~$350M–$450M) · Rev: ~€100M+ ARR | Starts at €99/month (or pay-per-transaction from €0.015/calculation beyond free allowance) | Free-forever developer tier with 100,000 transactions/month (OptiFlow API capped at 20 orders/locations, 5 vehicles, 5 min runtime/request; no credit card required) |
 | [PTV Route Optimiser](https://www.ptvlogistics.com/) | Fleet optimization | Enterprise logistics | **Valuation: ~€300M–€400M** (~$350M–$450M, PTV Group) · Rev: ~€100M+ ARR | Starts at ~€500–€1,000/month (~€6,000/year minimum software subscription contract benchmark) | Free custom product demo with company fleet routing data; 14-day guided proof-of-concept pilot upon request; no free-forever plan |
 | [DispatchTrack](https://www.dispatchtrack.com/) | Delivery management | Routing + visibility | **Valuation: ~$300M–$500M** (Spectrum Equity) · Rev: ~$40M–$60M ARR | Starts at ~$75/truck/month (base deployments starting at ~$500/month depending on fleet size) | Free customized live demo; 14-day sandbox pilot upon sales qualification; no free-forever plan |
@@ -324,1203 +286,770 @@ The following are major commercial or hosted platforms in route optimization, de
 
 
 
-# Open-Source
+# 🗺️ Open-Source
 
+Open-source route optimization is best understood as a **modular, layered ecosystem rather than a single monolith**.
 
-
-Open-source route optimization is best understood as an **ecosystem rather than a single product**.
-
-
-
-The strongest solutions typically combine:
-
-
+The strongest production architectures typically combine:
 
 ```text
-
-OpenStreetMap
-
+OpenStreetMap / OSM Data
       │
-
-      ├── OSRM
-
-      ├── Valhalla
-
-      ├── openrouteservice
-
-      └── GraphHopper
-
+      ├── OSRM (8.0k★)
+      ├── GraphHopper (6.7k★)
+      ├── Valhalla (6.2k★)
+      ├── openrouteservice (2.0k★)
+      └── pgRouting (1.4k★)
              │
-
              ▼
-
       Distance / Time Matrix
-
              │
-
              ▼
-
-     ┌───────────────────┐
-
-     │ Optimization      │
-
-     ├───────────────────┤
-
-     │ VROOM             │
-
-     │ OR-Tools          │
-
-     │ jsprit            │
-
-     │ OptaPlanner       │
-
-     │ PyVRP             │
-
-     │ VRPH              │
-
-     │ OscaR             │
-
-     └─────────┬─────────┘
-
-               │
-
-               ▼
-
-      Dispatch / API Layer
-
-               │
-
-               ▼
-
-       Driver Application
-
-               │
-
-               ▼
-
-        GPS / Telematics
-
-               │
-
-               ▼
-
-       Dynamic Re-routing
-
+     ┌────────────────────────────────────────────────────────┐
+     │ Route Optimization & Constraint Solvers               │
+     ├────────────────────────────────────────────────────────┤
+     │ • Google OR-Tools (14.0k★) — General CP-SAT & Rich VRP │
+     │ • OptaPlanner / Apache KIE (3.5k★) — Java AI Planning  │
+     │ • VROOM (1.9k★) — High-Performance C++ VRP Engine      │
+     │ • jsprit (1.8k★) — Java Metaheuristic VRP Toolkit      │
+     │ • Timefold Solver (1.8k★) — Enterprise Planning Solver │
+     │ • PyVRP (0.7k★) — SOTA Hybrid Genetic Search VRP       │
+     └─────────────────────────┬──────────────────────────────┘
+                               │
+                               ▼
+                      Dispatch / API Layer
+                               │
+                               ▼
+                  Driver Application & Tracking
+                               │
+                               ▼
+                   GPS / Fleet Telematics (Traccar)
+                               │
+                               ▼
+                   Real-Time Dynamic Re-routing
 ```
 
+---
 
+## 🏆 Open-Source Star Leaderboard
+
+The following table ranks the leading open-source repositories in route optimization, routing networks, mathematical solving, mapping, and fleet management sorted by GitHub stars (descending):
+
+| Rank | Project | Category | Stars | Primary Language | Description / Focus |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| 1 | [n8n](https://github.com/n8n-io/n8n) | Workflow Automation | [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | TypeScript | Fair-code workflow automation for dispatch pipelines |
+| 2 | [Apache Kafka](https://github.com/apache/kafka) | Event Streaming | [![GitHub stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers) | Java / Scala | High-throughput distributed event streaming for GPS and order events |
+| 3 | [Node-RED](https://github.com/node-red/node-red) | Event Infrastructure | [![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers) | JavaScript | Low-code event-driven wiring for telematics and IoT dispatch |
+| 4 | [Temporal](https://github.com/temporalio/temporal) | Workflow Orchestration | [![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers) | Go | Durable execution platform for long-running dispatch workflows |
+| 5 | [LightGBM](https://github.com/microsoft/LightGBM) | Machine Learning | [![GitHub stars](https://img.shields.io/github/stars/microsoft/LightGBM?style=social&color=white)](https://github.com/microsoft/LightGBM/stargazers) | C++ / Python | Fast gradient boosting framework for ETA prediction and travel time |
+| 6 | [NetworkX](https://github.com/networkx/networkx) | Network Analysis | [![GitHub stars](https://img.shields.io/github/stars/networkx/networkx?style=social&color=white)](https://github.com/networkx/networkx/stargazers) | Python | Comprehensive graph algorithms and network analysis library |
+| 7 | [SciPy](https://github.com/scipy/scipy) | Scientific Computing | [![GitHub stars](https://img.shields.io/github/stars/scipy/scipy?style=social&color=white)](https://github.com/scipy/scipy/stargazers) | Python / C | Fundamental library for scientific computing and optimization |
+| 8 | [Google OR-Tools](https://github.com/google/or-tools) | Optimization Engine | [![GitHub stars](https://img.shields.io/github/stars/google/or-tools?style=social&color=white)](https://github.com/google/or-tools/stargazers) | C++ / Python / Java | Industry-standard suite for VRP, CVRP, VRPTW, and integer programming |
+| 9 | [MapLibre GL](https://github.com/maplibre/maplibre-gl-js) | Mapping & Visualization | [![GitHub stars](https://img.shields.io/github/stars/maplibre/maplibre-gl-js?style=social&color=white)](https://github.com/maplibre/maplibre-gl-js/stargazers) | TypeScript | Open-source vector tile map SDK for web and mobile dispatch maps |
+| 10 | [OSRM](https://github.com/Project-OSRM/osrm-backend) | Routing Engine | [![GitHub stars](https://img.shields.io/github/stars/Project-OSRM/osrm-backend?style=social&color=white)](https://github.com/Project-OSRM/osrm-backend/stargazers) | C++ | Ultra-fast C++ routing engine and distance table calculator on OSM |
+| 11 | [Traccar](https://github.com/traccar/traccar) | GPS / Fleet Telematics | [![GitHub stars](https://img.shields.io/github/stars/traccar/traccar?style=social&color=white)](https://github.com/traccar/traccar/stargazers) | Java | Leading open-source GPS tracking system supporting 1500+ device protocols |
+| 12 | [GraphHopper](https://github.com/graphhopper/graphhopper) | Routing Engine | [![GitHub stars](https://img.shields.io/github/stars/graphhopper/graphhopper?style=social&color=white)](https://github.com/graphhopper/graphhopper/stargazers) | Java | Fast and memory-efficient routing engine with turn-by-turn directions |
+| 13 | [H3](https://github.com/uber/h3) | Spatial Indexing | [![GitHub stars](https://img.shields.io/github/stars/uber/h3?style=social&color=white)](https://github.com/uber/h3/stargazers) | C / Python | Hexagonal hierarchical spatial index for territory optimization & clustering |
+| 14 | [CVXPY](https://github.com/cvxpy/cvxpy) | Mathematical Solver | [![GitHub stars](https://img.shields.io/github/stars/cvxpy/cvxpy?style=social&color=white)](https://github.com/cvxpy/cvxpy/stargazers) | Python | Domain-specific modeling language for convex optimization problems |
+| 15 | [Valhalla](https://github.com/valhalla/valhalla) | Routing Engine | [![GitHub stars](https://img.shields.io/github/stars/valhalla/valhalla?style=social&color=white)](https://github.com/valhalla/valhalla/stargazers) | C++ | Multimodal open-source routing engine with dynamic tile generation |
+| 16 | [OSMnx](https://github.com/gboeing/osmnx) | Spatial Analysis | [![GitHub stars](https://img.shields.io/github/stars/gboeing/osmnx?style=social&color=white)](https://github.com/gboeing/osmnx/stargazers) | Python | Street network retrieval, modeling, and shortest-path analysis from OSM |
+| 17 | [Nominatim](https://github.com/osm-search/Nominatim) | Geocoding | [![GitHub stars](https://img.shields.io/github/stars/osm-search/Nominatim?style=social&color=white)](https://github.com/osm-search/Nominatim/stargazers) | C++ / PHP | Official OpenStreetMap search and reverse-geocoding engine |
+| 18 | [Pelias](https://github.com/pelias/pelias) | Geocoding | [![GitHub stars](https://img.shields.io/github/stars/pelias/pelias?style=social&color=white)](https://github.com/pelias/pelias/stargazers) | Node.js | Modular, open-source search engine powered by Elasticsearch |
+| 19 | [OptaPlanner / KIE](https://github.com/apache/incubator-kie-optaplanner) | Optimization Engine | [![GitHub stars](https://img.shields.io/github/stars/apache/incubator-kie-optaplanner?style=social&color=white)](https://github.com/apache/incubator-kie-optaplanner/stargazers) | Java | AI constraint satisfaction solver for complex enterprise vehicle routing |
+| 20 | [OpenMapTiles](https://github.com/openmaptiles/openmaptiles) | Vector Tiles | [![GitHub stars](https://img.shields.io/github/stars/openmaptiles/openmaptiles?style=social&color=white)](https://github.com/openmaptiles/openmaptiles/stargazers) | Shell / Python | Extensible vector tile schema and generator for custom mapping |
+| 21 | [Photon](https://github.com/komoot/photon) | Geocoding | [![GitHub stars](https://img.shields.io/github/stars/komoot/photon?style=social&color=white)](https://github.com/komoot/photon/stargazers) | Java | Open-source geocoder based on Elasticsearch and OpenStreetMap data |
+| 22 | [Pyomo](https://github.com/Pyomo/pyomo) | Mathematical Solver | [![GitHub stars](https://img.shields.io/github/stars/Pyomo/pyomo?style=social&color=white)](https://github.com/Pyomo/pyomo/stargazers) | Python | Python-based mathematical programming language with solver plugins |
+| 23 | [PuLP](https://github.com/coin-or/pulp) | Mathematical Solver | [![GitHub stars](https://img.shields.io/github/stars/coin-or/pulp?style=social&color=white)](https://github.com/coin-or/pulp/stargazers) | Python | Linear programming modeler supporting multiple backend MIP solvers |
+| 24 | [JuMP](https://github.com/jump-dev/JuMP.jl) | Mathematical Solver | [![GitHub stars](https://img.shields.io/github/stars/jump-dev/JuMP.jl?style=social&color=white)](https://github.com/jump-dev/JuMP.jl/stargazers) | Julia | Fast mathematical optimization modeling package for operations research |
+| 25 | [openrouteservice](https://github.com/GIScience/openrouteservice) | Routing Engine | [![GitHub stars](https://img.shields.io/github/stars/GIScience/openrouteservice?style=social&color=white)](https://github.com/GIScience/openrouteservice/stargazers) | Java | Spatial routing platform with distance matrix, isochrones & elevation |
+| 26 | [OpenRemote](https://github.com/openremote/openremote) | Fleet / IoT Telematics | [![GitHub stars](https://img.shields.io/github/stars/openremote/openremote?style=social&color=white)](https://github.com/openremote/openremote/stargazers) | Java | Open-source IoT platform for fleet telematics and smart asset automation |
+| 27 | [VROOM](https://github.com/VROOM-Project/vroom) | Optimization Engine | [![GitHub stars](https://img.shields.io/github/stars/VROOM-Project/vroom?style=social&color=white)](https://github.com/VROOM-Project/vroom/stargazers) | C++ | Ultra-fast vehicle routing optimization engine with instant REST API |
+| 28 | [jsprit](https://github.com/graphhopper/jsprit) | Optimization Engine | [![GitHub stars](https://img.shields.io/github/stars/graphhopper/jsprit?style=social&color=white)](https://github.com/graphhopper/jsprit/stargazers) | Java | Rich Java vehicle routing toolkit with customizable metaheuristics |
+| 29 | [HiGHS](https://github.com/ERGO-Code/HiGHS) | Mathematical Solver | [![GitHub stars](https://img.shields.io/github/stars/ERGO-Code/HiGHS?style=social&color=white)](https://github.com/ERGO-Code/HiGHS/stargazers) | C++ | High-performance open-source linear and mixed-integer programming solver |
+| 30 | [Timefold Solver](https://github.com/TimefoldAI/timefold-solver) | Optimization Engine | [![GitHub stars](https://img.shields.io/github/stars/TimefoldAI/timefold-solver?style=social&color=white)](https://github.com/TimefoldAI/timefold-solver/stargazers) | Java / Python | Modern AI optimization engine for fleet scheduling, VRP, and workforce |
+| 31 | [pgRouting](https://github.com/pgRouting/pgrouting) | Routing Engine | [![GitHub stars](https://img.shields.io/github/stars/pgRouting/pgrouting?style=social&color=white)](https://github.com/pgRouting/pgrouting/stargazers) | C / C++ / SQL | PostGIS extension adding routing, TSP, and VRP algorithms to PostgreSQL |
+| 32 | [OwnTracks](https://github.com/owntracks/recorder) | Location Telematics | [![GitHub stars](https://img.shields.io/github/stars/owntracks/recorder?style=social&color=white)](https://github.com/owntracks/recorder/stargazers) | C | Lightweight private GPS location tracking backend and mobile client |
+| 33 | [CBC](https://github.com/coin-or/Cbc) | Mathematical Solver | [![GitHub stars](https://img.shields.io/github/stars/coin-or/Cbc?style=social&color=white)](https://github.com/coin-or/Cbc/stargazers) | C++ | COIN-OR Branch and Cut mixed integer linear programming solver |
+| 34 | [BRouter](https://github.com/abrensch/brouter) | Routing Engine | [![GitHub stars](https://img.shields.io/github/stars/abrensch/brouter?style=social&color=white)](https://github.com/abrensch/brouter/stargazers) | Java | Configurable offline routing engine with elevation and profile awareness |
+| 35 | [PyVRP](https://github.com/PyVRP/PyVRP) | Optimization Engine | [![GitHub stars](https://img.shields.io/github/stars/PyVRP/PyVRP?style=social&color=white)](https://github.com/PyVRP/PyVRP/stargazers) | Python / C++ | Award-winning hybrid genetic search VRP library for Python |
+| 36 | [MobilityDB](https://github.com/MobilityDB/MobilityDB) | Trajectory Database | [![GitHub stars](https://img.shields.io/github/stars/MobilityDB/MobilityDB?style=social&color=white)](https://github.com/MobilityDB/MobilityDB/stargazers) | C / SQL | PostgreSQL/PostGIS extension for moving vehicle trajectories and GPS tracks |
+| 37 | [RoutingKit](https://github.com/RoutingKit/RoutingKit) | Routing Library | [![GitHub stars](https://img.shields.io/github/stars/RoutingKit/RoutingKit?style=social&color=white)](https://github.com/RoutingKit/RoutingKit/stargazers) | C++ | C++ routing library for computing shortest paths using contraction hierarchies |
+| 38 | [VRPH](https://github.com/coin-or/VRPH) | Optimization Engine | [![GitHub stars](https://img.shields.io/github/stars/coin-or/VRPH?style=social&color=white)](https://github.com/coin-or/VRPH/stargazers) | C++ | COIN-OR library of heuristics for generating solutions to the CVRP |
+| 39 | [OscaR](https://github.com/oscarlib/oscar) | Optimization Engine | [![GitHub stars](https://img.shields.io/github/stars/oscarlib/oscar?style=social&color=white)](https://github.com/oscarlib/oscar/stargazers) | Scala | Scala library for constraint programming and combinatorial optimization |
+| 40 | [Open-VRP](https://github.com/roeierez/open-vrp) | Optimization Research | [![GitHub stars](https://img.shields.io/github/stars/roeierez/open-vrp?style=social&color=white)](https://github.com/roeierez/open-vrp/stargazers) | Java | Experimental vehicle routing problem solver and heuristics benchmark |
 
 ---
 
+# ⚡ Full Route Optimization Engines
 
+The following core engines provide the algorithmic solving logic for multi-vehicle routing, pickup-and-delivery, capacity constraints, time windows, and fleet dispatching.
 
-# Full Route Optimization Engines
+---
 
+## 1. Google OR-Tools [![GitHub stars](https://img.shields.io/github/stars/google/or-tools?style=social&color=white)](https://github.com/google/or-tools/stargazers)
 
+**Google Optimization Tools (OR-Tools)**
+* **GitHub:** https://github.com/google/or-tools
+* **Website:** https://developers.google.com/optimization
+* **License:** Apache-2.0
+* **Primary Language:** C++ (with Python, Java, and C# bindings)
 
-## 1. VROOM
+OR-Tools is the most widely adopted open-source mathematical optimization library in the world for building custom vehicle routing engines. Its routing library provides industrial-strength constraint programming and local search heuristics.
 
+### Key Capabilities:
+* Capacitated Vehicle Routing (CVRP) and Multi-Depot VRP (MDVRP)
+* Vehicle Routing Problem with Time Windows (VRPTW)
+* Pickup and Delivery with Time Windows (PDPTW)
+* Heterogeneous fleets, driver break scheduling, and custom routing dimensions
+* Penalty-based stop skipping (soft constraints and unperformed stops)
+* Solves both pure routing and combined packing/routing (e.g. 3D load placement)
 
+---
+
+## 2. OptaPlanner / Apache KIE Ecosystem [![GitHub stars](https://img.shields.io/github/stars/apache/incubator-kie-optaplanner?style=social&color=white)](https://github.com/apache/incubator-kie-optaplanner/stargazers)
+
+**Enterprise Business Resource Planner & Constraint Solver**
+* **GitHub:** https://github.com/apache/incubator-kie-optaplanner
+* **Website:** https://www.optaplanner.org/
+* **License:** Apache-2.0
+* **Primary Language:** Java
+
+OptaPlanner is an enterprise AI constraint solver that optimizes business resource planning use cases such as the Vehicle Routing Problem (VRP), employee rostering, and task assignment using metaheuristics (Tabu Search, Simulated Annealing, Late Acceptance).
+
+### Key Capabilities:
+* Complex domain modeling with rich business logic written directly in standard Java or Python
+* Real-time continuous planning and dynamic route adjustments as new orders arrive
+* Hard, medium, and soft score constraints for multi-objective optimization
+* Native integration with Quarkus, Spring Boot, and enterprise microservice architectures
+
+---
+
+## 3. VROOM [![GitHub stars](https://img.shields.io/github/stars/VROOM-Project/vroom?style=social&color=white)](https://github.com/VROOM-Project/vroom/stargazers)
 
 **Vehicle Routing Open-source Optimization Machine**
+* **GitHub:** https://github.com/VROOM-Project/vroom
+* **Website:** https://vroom-project.org/
+* **License:** BSD-2-Clause
+* **Primary Language:** C++
 
+VROOM is one of the fastest direct open-source alternatives to commercial SaaS route optimization engines. It delivers production-grade vehicle routing solutions in milliseconds and integrates directly with OSRM, Valhalla, and OpenRouteService.
 
+### Key Capabilities:
+* TSP, CVRP, VRPTW, Multi-depot VRP, and Heterogeneous fleets
+* Pickup and delivery with precedence constraints
+* Driver skills, priorities, breaks, and working hours
+* Multi-dimensional vehicle capacity (weight, volume, pallet counts)
+* Turnkey HTTP REST API wrapper (`vroom-express`) for instant microservice deployment
 
-GitHub:
+---
 
-https://github.com/VROOM-Project/vroom
+## 4. jsprit [![GitHub stars](https://img.shields.io/github/stars/graphhopper/jsprit?style=social&color=white)](https://github.com/graphhopper/jsprit/stargazers)
 
+**Java-based Toolkit for Rich Vehicle Routing Problems**
+* **GitHub:** https://github.com/graphhopper/jsprit
+* **Website:** https://jsprit.github.io/
+* **License:** Apache-2.0
+* **Primary Language:** Java
 
+Maintained under the GraphHopper organization, jsprit is a lightweight, flexible, and robust Java toolkit for solving rich combinatorial vehicle routing problems using metaheuristic search.
 
-Website:
+### Key Capabilities:
+* Capacitated VRP, Multi-Depot VRP, and Time Windows
+* Infinite and finite fleet sizing with heterogeneous vehicle costs
+* Flexible custom objective functions and state-dependent constraints
+* Native compatibility with GraphHopper routing and matrix APIs
 
-https://vroom-project.org/
+---
 
+## 5. Timefold Solver [![GitHub stars](https://img.shields.io/github/stars/TimefoldAI/timefold-solver?style=social&color=white)](https://github.com/TimefoldAI/timefold-solver/stargazers)
 
+**Modern Open-Source AI Solver for Vehicle Routing & Scheduling**
+* **GitHub:** https://github.com/TimefoldAI/timefold-solver
+* **Website:** https://timefold.ai/
+* **License:** Apache-2.0
+* **Primary Language:** Java / Python
 
-License: **BSD-2-Clause**
+Timefold Solver is the modern fork and evolution of OptaPlanner, actively maintained with substantial performance enhancements, enterprise support, and a Python SDK for operations research teams.
 
+### Key Capabilities:
+* High-performance constraint streams using incremental calculation
+* Solves complex vehicle routing with technician skills, appointment time windows, and multi-day scheduling
+* Dynamic re-routing and non-disruptive schedule changes during active driver shifts
+* Native integration with modern cloud-native frameworks (Spring Boot 3, Quarkus)
 
+---
 
-VROOM is one of the strongest direct open-source alternatives to a commercial route optimization engine.
+## 6. PyVRP [![GitHub stars](https://img.shields.io/github/stars/PyVRP/PyVRP?style=social&color=white)](https://github.com/PyVRP/PyVRP/stargazers)
 
+**State-of-the-Art Vehicle Routing Problem Solver in Python**
+* **GitHub:** https://github.com/PyVRP/PyVRP
+* **Website:** https://pyvrp.org/
+* **License:** MIT
+* **Primary Language:** Python / C++
 
+PyVRP is an award-winning open-source package implementing Hybrid Genetic Search (HGS) for a wide range of vehicle routing problem variants. It combines Python ease-of-use with a high-speed C++ algorithmic core.
 
-It is designed specifically for vehicle routing and supports:
+### Key Capabilities:
+* State-of-the-art solution quality on benchmark CVRP and VRPTW instances
+* Supports heterogeneous fleets, multiple depots, pickup and deliveries, and duration limits
+* Designed specifically for data science workflows and operations research researchers
 
+---
 
+## 7. VRPH [![GitHub stars](https://img.shields.io/github/stars/coin-or/VRPH?style=social&color=white)](https://github.com/coin-or/VRPH/stargazers)
 
-* TSP
+**Open-Source Heuristics Library for the Capacitated VRP**
+* **GitHub:** https://github.com/coin-or/VRPH
+* **Website:** https://www.coin-or.org/
+* **License:** EPL-2.0
+* **Primary Language:** C++
 
-* CVRP
+Part of the COIN-OR initiative, VRPH provides classic, fast local search heuristics and metaheuristics for generating and improving solutions to large-scale CVRP instances.
 
-* VRPTW
+### Key Capabilities:
+* High-speed construction heuristics (Clarke-Wright savings, sweep algorithms)
+* Extensive local search moves (2-opt, Or-opt, cross-exchange, 3-opt)
+* Extremely fast execution suitable for embedded C++ routing services
 
-* Multi-depot VRP
+---
 
-* Heterogeneous fleets
+## 8. OscaR [![GitHub stars](https://img.shields.io/github/stars/oscarlib/oscar?style=social&color=white)](https://github.com/oscarlib/oscar/stargazers)
 
-* Pickup and delivery
+**Scala Optimization & Constraint Programming Toolkit**
+* **GitHub:** https://github.com/oscarlib/oscar
+* **Website:** https://bitbucket.org/oscarlib/oscar/
+* **License:** LGPL-2.1
+* **Primary Language:** Scala
 
-* Skills
+OscaR is a versatile Scala toolkit for constraint programming, combinatorial optimization, and vehicle routing.
 
-* Priorities
+### Key Capabilities:
+* Rich constraint programming framework for custom business rules
+* Routing module tailored for rich routing with arbitrary side constraints
+* Great for academic research and rule-intensive scheduling systems
 
-* Driver breaks
+---
 
-* Vehicle working hours
+## 9. Open-VRP [![GitHub stars](https://img.shields.io/github/stars/roeierez/open-vrp?style=social&color=white)](https://github.com/roeierez/open-vrp/stargazers)
 
-* Multiple capacity dimensions
+**Experimental Vehicle Routing Heuristics & Frameworks**
+* **GitHub:** https://github.com/roeierez/open-vrp
+* **License:** Open Source
+* **Primary Language:** Java
 
-* Open routes
-
-* Custom cost matrices
-
-
-
-VROOM can operate with:
-
-
-
-* OSRM
-
-* OpenRouteService
-
-* Valhalla
-
-* Custom travel-time matrices
-
-
-
-### Why VROOM is important
-
-
-
-VROOM is particularly attractive when the goal is:
-
-
-
-> **Build an OptimoRoute / Routific / NextBillion-style optimization backend yourself.**
-
-
+Academic and experimental frameworks for implementing custom VRP metaheuristics. For enterprise production, OR-Tools, VROOM, Timefold, and jsprit are the recommended industry backends.
 
 ---
 
 
 
-## 2. Google OR-Tools
+# 🧮 Mathematical Optimization Solvers
 
+These mathematical libraries and solvers are not turnkey delivery products, but they form the algorithmic foundation of custom route optimizers, column-generation frameworks, and exact MIP solvers.
 
+The following solvers and modeling languages are ranked by GitHub star count (descending):
 
-GitHub:
-
-https://github.com/google/or-tools
-
-
-
-Website:
-
-https://developers.google.com/optimization
-
-
-
-License: **Apache-2.0**
-
-
-
-OR-Tools is one of the most important open-source optimization libraries available.
-
-
-
-It supports:
-
-
-
-* Vehicle routing
-
-* Capacity constraints
-
-* Time windows
-
-* Pickup and delivery
-
-* Multiple depots
-
-* Routing dimensions
-
-* Resource constraints
-
-* Scheduling
-
-* Linear programming
-
-* Integer programming
-
-* Constraint programming
-
-
-
-OR-Tools is especially suitable for organizations wanting to build their own optimization engine rather than deploy a ready-made routing server.
-
-
+| Project | Stars | Primary Role | Supported Languages | License |
+| :--- | :---: | :--- | :--- | :--- |
+| [OR-Tools](https://github.com/google/or-tools) | [![GitHub stars](https://img.shields.io/github/stars/google/or-tools?style=social&color=white)](https://github.com/google/or-tools/stargazers) | CP-SAT solver, VRP engine, and linear/integer programming | C++, Python, Java, C# | Apache-2.0 |
+| [CVXPY](https://github.com/cvxpy/cvxpy) | [![GitHub stars](https://img.shields.io/github/stars/cvxpy/cvxpy?style=social&color=white)](https://github.com/cvxpy/cvxpy/stargazers) | Domain-specific modeling language for convex optimization | Python | Apache-2.0 |
+| [OptaPlanner](https://github.com/apache/incubator-kie-optaplanner) | [![GitHub stars](https://img.shields.io/github/stars/apache/incubator-kie-optaplanner?style=social&color=white)](https://github.com/apache/incubator-kie-optaplanner/stargazers) | Enterprise AI constraint satisfaction & business resource planning | Java | Apache-2.0 |
+| [Pyomo](https://github.com/Pyomo/pyomo) | [![GitHub stars](https://img.shields.io/github/stars/Pyomo/pyomo?style=social&color=white)](https://github.com/Pyomo/pyomo/stargazers) | Robust Python-based mathematical programming modeling language | Python | BSD-3-Clause |
+| [PuLP](https://github.com/coin-or/pulp) | [![GitHub stars](https://img.shields.io/github/stars/coin-or/pulp?style=social&color=white)](https://github.com/coin-or/pulp/stargazers) | Simple, intuitive linear programming modeler with solver plug-ins | Python | MIT |
+| [JuMP](https://github.com/jump-dev/JuMP.jl) | [![GitHub stars](https://img.shields.io/github/stars/jump-dev/JuMP.jl?style=social&color=white)](https://github.com/jump-dev/JuMP.jl/stargazers) | Ultra-fast modeling language for mathematical optimization in Julia | Julia | MPL-2.0 |
+| [VROOM](https://github.com/VROOM-Project/vroom) | [![GitHub stars](https://img.shields.io/github/stars/VROOM-Project/vroom?style=social&color=white)](https://github.com/VROOM-Project/vroom/stargazers) | Ultra-fast heuristic solver for CVRP, VRPTW, and PDPTW | C++ | BSD-2-Clause |
+| [jsprit](https://github.com/graphhopper/jsprit) | [![GitHub stars](https://img.shields.io/github/stars/graphhopper/jsprit?style=social&color=white)](https://github.com/graphhopper/jsprit/stargazers) | Rich Java-based vehicle routing toolkit using Ruin-and-Recreate | Java | Apache-2.0 |
+| [HiGHS](https://github.com/ERGO-Code/HiGHS) | [![GitHub stars](https://img.shields.io/github/stars/ERGO-Code/HiGHS?style=social&color=white)](https://github.com/ERGO-Code/HiGHS/stargazers) | High-performance open-source linear and mixed-integer solver | C++ | MIT |
+| [Timefold](https://github.com/TimefoldAI/timefold-solver) | [![GitHub stars](https://img.shields.io/github/stars/TimefoldAI/timefold-solver?style=social&color=white)](https://github.com/TimefoldAI/timefold-solver/stargazers) | Modern AI optimization engine for fleet scheduling & VRP | Java, Python | Apache-2.0 |
+| [SCIP](https://github.com/scipopt/scip) | [![GitHub stars](https://img.shields.io/github/stars/scipopt/scip?style=social&color=white)](https://github.com/scipopt/scip/stargazers) | Leading non-commercial/academic MIP and branch-cut-and-price framework | C, C++ | Apache-2.0 |
+| [CBC](https://github.com/coin-or/Cbc) | [![GitHub stars](https://img.shields.io/github/stars/coin-or/Cbc?style=social&color=white)](https://github.com/coin-or/Cbc/stargazers) | COIN-OR branch-and-cut solver for mixed integer programs | C++ | EPL-2.0 |
+| [PyVRP](https://github.com/PyVRP/PyVRP) | [![GitHub stars](https://img.shields.io/github/stars/PyVRP/PyVRP?style=social&color=white)](https://github.com/PyVRP/PyVRP/stargazers) | Award-winning Hybrid Genetic Search solver for rich VRP | Python, C++ | MIT |
+| [VRPH](https://github.com/coin-or/VRPH) | [![GitHub stars](https://img.shields.io/github/stars/coin-or/VRPH?style=social&color=white)](https://github.com/coin-or/VRPH/stargazers) | Library of local search heuristics for the Capacitated VRP | C++ | EPL-2.0 |
+| [OscaR](https://github.com/oscarlib/oscar) | [![GitHub stars](https://img.shields.io/github/stars/oscarlib/oscar?style=social&color=white)](https://github.com/oscarlib/oscar/stargazers) | Constraint programming toolkit with specialized routing extension | Scala | LGPL-2.1 |
 
 ---
 
 
 
-## 3. jsprit
-
-
-
-GitHub:
-
-
-
-https://github.com/graphhopper/jsprit
-
-
-
-Website:
-
-
-
-https://jsprit.github.io/
-
-
-
-License: **Apache-2.0**
-
-
-
-jsprit is a Java-based toolkit for rich VRPs.
-
-
-
-It supports:
-
-
-
-* CVRP
-
-* Multi-depot VRP
-
-* VRPTW
-
-* Pickup and delivery
-
-* Backhauls
-
-* Heterogeneous fleets
-
-* Time-dependent VRP
-
-* TSP
-
-* Dial-a-Ride
-
-* Multiple capacity dimensions
-
-* Skills
-
-* Open routes
-
-
-
-It is particularly attractive for Java/Spring enterprise systems.
-
-
-
----
-
-
-
-## 4. OptaPlanner / Apache KIE ecosystem
-
-
-
-GitHub:
-
-
-
-https://github.com/apache/incubator-kie-optaplanner
-
-
-
-Website:
-
-
-
-https://www.optaplanner.org/
-
-
-
-OptaPlanner historically provided a powerful constraint-solving approach to:
-
-
-
-* Vehicle routing
-
-* Employee rostering
-
-* Scheduling
-
-* Resource allocation
-
-* Logistics
-
-* Constraint optimization
-
-
-
-For new deployments, check the current Apache KIE project structure and licensing/status before selecting a particular release.
-
-
-
----
-
-
-
-## 5. PyVRP
-
-
-
-GitHub:
-
-
-
-https://github.com/PyVRP/PyVRP
-
-
-
-PyVRP is a Python-based high-performance vehicle-routing solver.
-
-
-
-Useful for:
-
-
-
-* Research
-
-* Prototyping
-
-* Custom VRP algorithms
-
-* Benchmarking
-
-* Python-based optimization systems
-
-* Academic logistics projects
-
-
-
----
-
-
-
-## 6. VRPH
-
-
-
-GitHub:
-
-
-
-https://github.com/coin-or/VRPH
-
-
-
-VRPH is an open-source C++ library for solving vehicle routing problems.
-
-
-
-Useful for:
-
-
-
-* CVRP
-
-* Routing research
-
-* High-performance optimization
-
-* Custom C++ optimization applications
-
-
-
----
-
-
-
-## 7. OscaR
-
-
-
-GitHub:
-
-
-
-https://github.com/oscarlib/oscar
-
-
-
-OscaR is an open-source Scala optimization toolkit.
-
-
-
-It can be used for:
-
-
-
-* Vehicle routing
-
-* Constraint programming
-
-* Scheduling
-
-* Combinatorial optimization
-
-
-
----
-
-
-
-## 8. Open-VRP
-
-
-
-GitHub:
-
-
-
-https://github.com/graphhopper/jsprit
-
-
-
-Open-VRP-style frameworks and academic implementations can be useful for experimenting with custom VRP formulations.
-
-
-
-For production systems, VROOM, OR-Tools, jsprit and PyVRP are generally stronger starting points.
-
-
-
----
-
-
-
-# Mathematical Optimization Solvers
-
-
-
-These are not complete route-planning products, but they can form the mathematical core of a custom route optimizer.
-
-
-
-| Project                                         | Main Role                 | Language             | License                           |
-
-| ----------------------------------------------- | ------------------------- | -------------------- | --------------------------------- |
-
-| [OR-Tools](https://github.com/google/or-tools)  | Routing + optimization    | C++/Python/Java/.NET | Apache-2.0                        |
-
-| [jsprit](https://github.com/graphhopper/jsprit) | Rich VRP                  | Java                 | Apache-2.0                        |
-
-| [PyVRP](https://github.com/PyVRP/PyVRP)         | VRP solver                | Python/C++           | Open source                       |
-
-| [VRPH](https://github.com/coin-or/VRPH)         | CVRP                      | C++                  | Open source                       |
-
-| [OscaR](https://github.com/oscarlib/oscar)      | Constraint optimization   | Scala                | Open source                       |
-
-| [OptaPlanner](https://www.optaplanner.org/)     | Constraint solving        | Java                 | Open source                       |
-
-| [COIN-OR](https://www.coin-or.org/)             | Mathematical optimization | C++                  | Open source                       |
-
-| [HiGHS](https://github.com/ERGO-Code/HiGHS)     | LP/MIP optimization       | C++                  | MIT                               |
-
-| [SCIP](https://www.scipopt.org/)                | MIP/constraint solving    | C/C++                | Open-source/free depending on use |
-
-| [PuLP](https://github.com/coin-or/pulp)         | LP modeling               | Python               | MIT                               |
-
-| [Pyomo](https://github.com/Pyomo/pyomo)         | Optimization modeling     | Python               | BSD                               |
-
-| [CVXPY](https://github.com/cvxpy/cvxpy)         | Convex optimization       | Python               | Apache-2.0                        |
-
-
-
----
-
-
-
-# Routing / Road-Network Engines
-
-
+# 🛣️ Routing / Road-Network Engines
 
 An optimization engine determines **which vehicle should visit which stops and in what order**.
+A routing engine determines **how to travel between two points** across the actual road network (turn-by-turn geometry, transit times, and distance matrices).
 
+The leading open-source routing engines are ranked below by GitHub star count (descending):
 
+---
 
-A routing engine determines **how to travel between two points**.
+## 1. OSRM [![GitHub stars](https://img.shields.io/github/stars/Project-OSRM/osrm-backend?style=social&color=white)](https://github.com/Project-OSRM/osrm-backend/stargazers)
 
+**Open Source Routing Machine**
+* **GitHub:** https://github.com/Project-OSRM/osrm-backend
+* **Website:** https://project-osrm.org/
+* **License:** BSD-2-Clause
+* **Primary Language:** C++
 
+OSRM is an ultra-high-performance routing engine designed for OpenStreetMap data. By pre-processing road networks using Contraction Hierarchies (CH) or Multi-Level Dijkstra (MLD), OSRM computes shortest paths and distance matrices across continental road networks in microseconds.
 
-This distinction is fundamental.
+### Capabilities:
+* Point-to-point routing and step-by-step navigation instructions
+* High-speed `table` service for N×N distance and travel-time matrices
+* Map matching (snapping raw GPS traces to road centerlines)
+* Nearest-neighbor snapping and trip optimization (TSP approximation)
+* Native matrix supplier for VROOM and custom dispatch workers
 
+---
 
+## 2. GraphHopper [![GitHub stars](https://img.shields.io/github/stars/graphhopper/graphhopper?style=social&color=white)](https://github.com/graphhopper/graphhopper/stargazers)
 
-## OSRM
+**Fast and Memory-Efficient Java Routing Engine**
+* **GitHub:** https://github.com/graphhopper/graphhopper
+* **Website:** https://www.graphhopper.com/
+* **License:** Apache-2.0
+* **Primary Language:** Java
 
+GraphHopper is a flexible, memory-efficient routing engine written in Java that powers millions of routes daily on OpenStreetMap data.
 
+### Capabilities:
+* Fast Contraction Hierarchies and customizable edge-based routing profiles (car, truck, bike, foot)
+* High-throughput matrix calculation for logistics and fleet dispatch
+* Turn-by-turn voice navigation instructions and alternative route generation
+* Map matching engine for post-processing driver telematics tracks
+* Seamless synergy with jsprit for vehicle routing optimization
 
-GitHub:
+---
 
+## 3. Valhalla [![GitHub stars](https://img.shields.io/github/stars/valhalla/valhalla?style=social&color=white)](https://github.com/valhalla/valhalla/stargazers)
 
+**Multimodal Routing Engine with Dynamic Tile Hierarchy**
+* **GitHub:** https://github.com/valhalla/valhalla
+* **Website:** https://valhalla.github.io/valhalla/
+* **License:** MIT
+* **Primary Language:** C++
 
-https://github.com/Project-OSRM/osrm-backend
+Originally created by Mapzen, Valhalla is a modern, modular C++ routing engine built on a tiled data structure that allows global coverage without requiring massive monolithic memory allocations.
 
+### Capabilities:
+* Truly multimodal routing (auto, truck with bridge/weight constraints, pedestrian, transit)
+* Time-dependent routing and dynamic traffic penalty overlays
+* Isochrone and reachability matrix generation
+* Advanced Meili map matching for noisy telematics data
+* First-class integration with VROOM for capacitated fleet routing
 
+---
 
-Website:
+## 4. openrouteservice (ORS) [![GitHub stars](https://img.shields.io/github/stars/GIScience/openrouteservice?style=social&color=white)](https://github.com/GIScience/openrouteservice/stargazers)
 
+**Spatial Routing Services Stack from Heidelberg University**
+* **GitHub:** https://github.com/GIScience/openrouteservice
+* **Website:** https://openrouteservice.org/
+* **License:** Apache-2.0
+* **Primary Language:** Java
 
+Developed by the Heidelberg Institute for Geoinformation Technology (HeiGIT), OpenRouteService provides a comprehensive geoprocessing API suite on top of OSM data.
 
-https://project-osrm.org/
+### Capabilities:
+* Routing with customizable avoid-features (tollways, ferries, hills, specific areas)
+* Time-distance matrix API supporting asynchronous large-scale requests
+* Isochrone polygon calculation for service area definition
+* Integrated VROOM optimization endpoints
+* Elevation profiles and green/quiet routing options
 
+---
 
+## 5. pgRouting [![GitHub stars](https://img.shields.io/github/stars/pgRouting/pgrouting?style=social&color=white)](https://github.com/pgRouting/pgrouting/stargazers)
 
-License: BSD-style
+**Geospatial Routing Inside PostgreSQL / PostGIS**
+* **GitHub:** https://github.com/pgRouting/pgrouting
+* **Website:** https://pgrouting.org/
+* **License:** GPL-2.0
+* **Primary Language:** C / C++ / SQL
 
+pgRouting extends PostgreSQL and PostGIS to provide geospatial routing and graph analytics directly inside the database, enabling queries that combine business SQL logic with network algorithms.
 
+### Capabilities:
+* Shortest path algorithms: Dijkstra, A*, Bidirectional Dijkstra, Bellman-Ford
+* Traveling Salesperson Problem (TSP) and basic VRP solvers
+* Driving distance isochrone boundaries
+* Dynamic edge cost updates (e.g. real-time road closures or speed changes in SQL)
+* Turn restrictions and one-way lane compliance
 
-OSRM is a high-performance routing engine based on OpenStreetMap data.
+---
 
+## 6. BRouter [![GitHub stars](https://img.shields.io/github/stars/abrensch/brouter?style=social&color=white)](https://github.com/abrensch/brouter/stargazers)
 
+**Configurable Offline Routing Engine**
+* **GitHub:** https://github.com/abrensch/brouter
+* **Website:** http://brouter.de/
+* **License:** MIT / GPL
+* **Primary Language:** Java
 
-Supports:
+BRouter is a lightweight, offline-capable routing engine that emphasizes fine-grained custom profile scripts and elevation awareness.
 
+### Capabilities:
+* Expressive profile scripting language for custom vehicle physics and penalties
+* Global elevation and slope calculation
+* Highly optimized for resource-constrained environments and mobile devices
 
+---
 
-* Route calculation
+## 7. RoutingKit [![GitHub stars](https://img.shields.io/github/stars/RoutingKit/RoutingKit?style=social&color=white)](https://github.com/RoutingKit/RoutingKit/stargazers)
 
-* Distance matrix
+**High-Performance C++ Routing Building Blocks**
+* **GitHub:** https://github.com/RoutingKit/RoutingKit
+* **License:** Custom Permissive (Zlib-like)
+* **Primary Language:** C++
 
-* Table service
+RoutingKit is an open-source C++ library that provides basic building blocks for high-performance routing applications, including Contraction Hierarchies and fast graph representations.
 
-* Map matching
-
-* Nearest road
-
-* Many-to-many routing
-
-
-
-VROOM can use OSRM as its routing backend.
-
-
+### Capabilities:
+* Fast graph ingestion and indexing from OpenStreetMap PBF files
+* Extremely low-overhead Contraction Hierarchies query engine
+* Intended as an embedded component in specialized routing engines
 
 ---
 
 
 
-## Valhalla
+# 🌍 Mapping / Geocoding / Matrix
 
+Before an optimization engine can calculate routes, addresses must be geocoded into latitude/longitude coordinates, distance matrices must be computed, and spatial maps must be rendered for dispatchers and drivers.
 
+The leading open-source mapping and geospatial components are ranked below by GitHub star count (descending):
 
-GitHub:
+---
 
+## 1. MapLibre GL [![GitHub stars](https://img.shields.io/github/stars/maplibre/maplibre-gl-js?style=social&color=white)](https://github.com/maplibre/maplibre-gl-js/stargazers)
 
+**Open-Source WebGL & Native Vector Map Rendering SDK**
+* **GitHub:** https://github.com/maplibre/maplibre-gl-js
+* **Website:** https://maplibre.org/
+* **License:** BSD-3-Clause
+* **Primary Language:** TypeScript / C++
 
-https://github.com/valhalla/valhalla
+The open-source community fork of Mapbox GL, MapLibre provides GPU-accelerated vector tile rendering for web applications and mobile apps (iOS/Android) without proprietary licensing restrictions.
 
+### Capabilities:
+* Hardware-accelerated dynamic vector and raster map rendering
+* High-performance real-time marker animations for fleet tracking
+* Dynamic route polyline styling, congestion coloring, and animated arrows
+* Full offline caching and custom vector style JSON support
 
+---
 
-Valhalla is an open-source routing engine supporting:
+## 2. H3 [![GitHub stars](https://img.shields.io/github/stars/uber/h3?style=social&color=white)](https://github.com/uber/h3/stargazers)
 
+**Hexagonal Hierarchical Spatial Index**
+* **GitHub:** https://github.com/uber/h3
+* **Website:** https://h3geo.org/
+* **License:** Apache-2.0
+* **Primary Language:** C / Python / Java / JavaScript
 
+Created by Uber, H3 is an open-source discrete global grid system that partitions the earth into hexagonal cells across 16 resolution levels.
 
-* Routing
+### Capabilities:
+* Ideal for spatial clustering, territory optimization, and customer dispatch zoning
+* Invariant neighbor distances (every hexagonal neighbor is equidistant, unlike square grids)
+* Fast point-to-cell lookups and hierarchical aggregation for demand heatmaps
 
-* Matrix
+---
 
-* Isochrones
+## 3. OSMnx [![GitHub stars](https://img.shields.io/github/stars/gboeing/osmnx?style=social&color=white)](https://github.com/gboeing/osmnx/stargazers)
 
-* Map matching
+**Python Spatial Road Network Analysis & Modeling**
+* **GitHub:** https://github.com/gboeing/osmnx
+* **Website:** https://osmnx.readthedocs.io/
+* **License:** MIT
+* **Primary Language:** Python
 
-* Multimodal routing
+OSMnx allows developers to download, model, analyze, and visualize street networks from OpenStreetMap in Python.
 
-* Time-dependent routing
+### Capabilities:
+* Downloads drivable street networks for any city or bounding box directly into NetworkX graphs
+* Computes shortest paths, network centrality, travel speeds, and circuitousness
+* Prepares and cleans topological graphs for custom algorithmic experimentation
 
-* Various transportation modes
+---
 
+## 4. Nominatim [![GitHub stars](https://img.shields.io/github/stars/osm-search/Nominatim?style=social&color=white)](https://github.com/osm-search/Nominatim/stargazers)
 
+**Official OpenStreetMap Search and Reverse-Geocoding Engine**
+* **GitHub:** https://github.com/osm-search/Nominatim
+* **Website:** https://nominatim.org/
+* **License:** GPL-2.0
+* **Primary Language:** C++ / PHP
 
-VROOM supports Valhalla.
+Nominatim powers the search bar on OpenStreetMap.org and is the standard self-hosted geocoder for turning delivery addresses into coordinates and vice versa.
 
+### Capabilities:
+* Forward geocoding with structured and unstructured queries
+* Reverse geocoding of raw driver GPS coordinates to street addresses
+* Self-hostable on PostgreSQL/PostGIS for unlimited, cost-free geocoding queries
 
+---
+
+## 5. Pelias [![GitHub stars](https://img.shields.io/github/stars/pelias/pelias?style=social&color=white)](https://github.com/pelias/pelias/stargazers)
+
+**Modular, Open-Source Geocoder Powered by Elasticsearch**
+* **GitHub:** https://github.com/pelias/pelias
+* **Website:** https://pelias.io/
+* **License:** MIT
+* **Primary Language:** Node.js
+
+Originally developed by Mapzen, Pelias is a modular, production-ready geocoding engine built on Elasticsearch.
+
+### Capabilities:
+* Autocomplete and instant address search-as-you-type
+* Aggregates data from multiple open sources (OSM, OpenAddresses, WhosOnFirst, GeoNames)
+* Excellent internationalization and fuzzy address tolerance
+
+---
+
+## 6. OpenMapTiles [![GitHub stars](https://img.shields.io/github/stars/openmaptiles/openmaptiles?style=social&color=white)](https://github.com/openmaptiles/openmaptiles/stargazers)
+
+**Extensible Vector Tile Generator for Self-Hosted Maps**
+* **GitHub:** https://github.com/openmaptiles/openmaptiles
+* **Website:** https://openmaptiles.org/
+* **License:** CC-BY 4.0 / BSD
+* **Primary Language:** Shell / Python / SQL
+
+OpenMapTiles provides an open schema and pipeline to convert raw OSM data into vector tiles that can be served via standard HTTP servers or Docker containers.
+
+### Capabilities:
+* Powers custom map styling for dispatch dashboards
+* Completely self-hostable with MBTiles or Martin/Tegola tile servers
+* Avoids costly recurring tile requests from proprietary mapping providers
+
+---
+
+## 7. Photon [![GitHub stars](https://img.shields.io/github/stars/komoot/photon?style=social&color=white)](https://github.com/komoot/photon/stargazers)
+
+**Fast Elasticsearch Geocoder for OpenStreetMap**
+* **GitHub:** https://github.com/komoot/photon
+* **Website:** https://photon.komoot.io/
+* **License:** Apache-2.0
+* **Primary Language:** Java
+
+Maintained by Komoot, Photon is an open-source geocoder optimized for rapid search-as-you-type autocomplete.
+
+### Capabilities:
+* Multilingual address matching and typo tolerance
+* Fast sub-10ms response times for mobile driver address lookups
+* Easy self-hosting from pre-built Lucene/Elasticsearch dumps
+
+---
+
+## 8. OpenStreetMap (OSM)
+
+**The Universal Open Geographic Dataset**
+* **Website:** https://www.openstreetmap.org/
+* **License:** ODbL (Open Database License)
+
+OpenStreetMap is the crowd-sourced geographic dataset that underpins nearly the entire open-source routing and navigation universe. It supplies the road vectors, turn restrictions, speed classifications, bridge clearances, and address numbers used by OSRM, Valhalla, GraphHopper, and Nominatim.
 
 ---
 
 
 
-## openrouteservice
+# 🚚 Fleet / Dispatch / Delivery Platforms
 
+Route optimization determines the sequence of stops; fleet platforms track execution, capture GPS telemetry, and report real-time status.
 
+The leading open-source fleet and telematics solutions are ranked below by GitHub star count (descending):
 
-GitHub:
+---
 
+## 1. Traccar [![GitHub stars](https://img.shields.io/github/stars/traccar/traccar?style=social&color=white)](https://github.com/traccar/traccar/stargazers)
 
+**Modern Open-Source GPS Fleet Tracking System**
+* **GitHub:** https://github.com/traccar/traccar
+* **Website:** https://www.traccar.org/
+* **License:** Apache-2.0
+* **Primary Language:** Java
 
-https://github.com/GIScience/openrouteservice
+Traccar is the most popular open-source GPS tracking system in the world. It supports real-time device tracking, geofencing, driver identification, alerts, and comprehensive historical reporting.
 
+### Capabilities:
+* Supports over 1,500 GPS hardware communication protocols
+* Native mobile client apps (iOS and Android) for driver phone tracking
+* Web dashboard with live map tracking, stop detection, and mileage reports
+* REST API and webhooks for triggering dynamic re-optimization events on vehicle delays
 
+---
 
-Website:
+## 2. OpenRemote [![GitHub stars](https://img.shields.io/github/stars/openremote/openremote?style=social&color=white)](https://github.com/openremote/openremote/stargazers)
 
+**Open-Source IoT & Fleet Automation Platform**
+* **GitHub:** https://github.com/openremote/openremote
+* **Website:** https://openremote.io/
+* **License:** AGPL-3.0
+* **Primary Language:** Java / TypeScript
 
+OpenRemote is an enterprise IoT platform designed for smart cities, fleet management, and asset tracking.
 
-https://openrouteservice.org/
+### Capabilities:
+* Connects telematics devices, sensors, and vehicle OBD-II telemetry
+* Rule engine for automated dispatch triggers and geofence-based alerts
+* Custom dashboard designer with map tracking and mobile companion applications
 
+---
 
+## 3. OwnTracks [![GitHub stars](https://img.shields.io/github/stars/owntracks/recorder?style=social&color=white)](https://github.com/owntracks/recorder/stargazers)
 
-OpenRouteService provides:
+**Private, Open-Source Location Tracking Engine**
+* **GitHub:** https://github.com/owntracks/recorder
+* **Website:** https://owntracks.org/
+* **License:** GPL-2.0
+* **Primary Language:** C
 
+OwnTracks provides open-source mobile clients (iOS/Android) and lightweight backend recorders for secure, private location publishing over MQTT and HTTP.
 
+### Capabilities:
+* Ultra-low battery consumption on driver mobile devices
+* Encrypted location updates sent directly to your private MQTT broker
+* Native geofencing transitions (enter/leave customer zones)
 
-* Directions
+---
 
-* Matrix
+## 4. MobilityDB [![GitHub stars](https://img.shields.io/github/stars/MobilityDB/MobilityDB?style=social&color=white)](https://github.com/MobilityDB/MobilityDB/stargazers)
 
-* Isochrones
+**Moving Object Database Extension for PostgreSQL / PostGIS**
+* **GitHub:** https://github.com/MobilityDB/MobilityDB
+* **Website:** https://mobilitydb.com/
+* **License:** MPL-2.0
+* **Primary Language:** C / SQL
 
-* Optimization
+MobilityDB extends PostgreSQL and PostGIS with temporal and spatio-temporal data types to manage, query, and analyze moving object trajectories (fleets, delivery couriers, dynamic assets).
 
-* Geocoding integrations
+### Capabilities:
+* Temporal geometries (`tgeompoint`) for storing continuous vehicle movement
+* Spatio-temporal queries: speed at timestamp, proximity between vehicles over time
+* Route deviation analysis and planned vs. actual trajectory comparison
 
-* Accessibility analysis
+---
 
+## 5. OpenGTS
 
+**Legacy Open GPS Tracking System**
+* **Website:** http://opengts.sourceforge.net/
+* **License:** Apache-2.0
+* **Primary Language:** Java
 
-It is particularly useful as an OSM-based routing stack.
-
-
+One of the earliest open-source fleet tracking frameworks. For modern production deployments, Traccar and OpenRemote offer vastly superior protocol support, active maintenance, and modern REST APIs.
 
 ---
 
 
 
-## GraphHopper
+# 📐 Territory Planning
 
+Territory planning partitions a delivery region into balanced, compact zones assigned to specific drivers or depots before day-to-day route sequencing.
 
+The primary open-source tools for territory management include:
 
-GitHub:
-
-
-
-https://github.com/graphhopper/graphhopper
-
-
-
-Website:
-
-
-
-https://www.graphhopper.com/
-
-
-
-GraphHopper provides an open-source routing engine and a commercial hosted platform.
-
-
-
-Its ecosystem includes:
-
-
-
-* Routing
-
-* Matrix
-
-* Map matching
-
-* Isochrones
-
-* Navigation
-
-* jsprit-based optimization
-
-
+* **[H3](https://github.com/uber/h3)** [![GitHub stars](https://img.shields.io/github/stars/uber/h3?style=social&color=white)](https://github.com/uber/h3/stargazers) — Uber's hexagonal spatial index for discrete spatial partitioning, balanced clustering, and compact territory definition.
+* **[Open Door Logistics Studio](https://github.com/opendoorlogistics)** — Classic open-source standalone desktop application for territory design, sales territory optimization, and vehicle routing.
+* **[OSMnx](https://github.com/gboeing/osmnx)** [![GitHub stars](https://img.shields.io/github/stars/gboeing/osmnx?style=social&color=white)](https://github.com/gboeing/osmnx/stargazers) — Road-network topology analysis for calculating street-level travel distances across boundary polygons.
 
 ---
 
 
 
-## BRouter
+# 🔬 Optimization & Data Science Libraries
 
+The following mathematical and scientific data science libraries are widely utilized to build machine-learning ETAs, graph networks, and customized constraint solvers:
 
-
-GitHub:
-
-
-
-https://github.com/abrensch/brouter
-
-
-
-BRouter is an open-source routing engine with particular usefulness in:
-
-
-
-* Cycling
-
-* Hiking
-
-* Offline routing
-
-* Custom routing profiles
-
-
+| Library | Stars | Primary Focus | Language | License |
+| :--- | :---: | :--- | :--- | :--- |
+| [LightGBM](https://github.com/microsoft/LightGBM) | [![GitHub stars](https://img.shields.io/github/stars/microsoft/LightGBM?style=social&color=white)](https://github.com/microsoft/LightGBM/stargazers) | High-speed gradient boosting for travel-time & ETA machine learning models | C++, Python | MIT |
+| [NetworkX](https://github.com/networkx/networkx) | [![GitHub stars](https://img.shields.io/github/stars/networkx/networkx?style=social&color=white)](https://github.com/networkx/networkx/stargazers) | Graph theory algorithms, shortest paths, and network topology analysis | Python | BSD-3-Clause |
+| [SciPy](https://github.com/scipy/scipy) | [![GitHub stars](https://img.shields.io/github/stars/scipy/scipy?style=social&color=white)](https://github.com/scipy/scipy/stargazers) | Scientific computing, sparse matrix handling, and numerical optimization routines | Python, C | BSD-3-Clause |
+| [CVXPY](https://github.com/cvxpy/cvxpy) | [![GitHub stars](https://img.shields.io/github/stars/cvxpy/cvxpy?style=social&color=white)](https://github.com/cvxpy/cvxpy/stargazers) | Convex optimization modeling with automatic transformation to backend solvers | Python | Apache-2.0 |
+| [OSMnx](https://github.com/gboeing/osmnx) | [![GitHub stars](https://img.shields.io/github/stars/gboeing/osmnx?style=social&color=white)](https://github.com/gboeing/osmnx/stargazers) | Python library to retrieve, model, and analyze street networks from OSM | Python | MIT |
+| [Pyomo](https://github.com/Pyomo/pyomo) | [![GitHub stars](https://img.shields.io/github/stars/Pyomo/pyomo?style=social&color=white)](https://github.com/Pyomo/pyomo/stargazers) | Comprehensive optimization modeling language with linear/nonlinear solver integration | Python | BSD-3-Clause |
+| [PuLP](https://github.com/coin-or/pulp) | [![GitHub stars](https://img.shields.io/github/stars/coin-or/pulp?style=social&color=white)](https://github.com/coin-or/pulp/stargazers) | Linear programming modeler supporting CBC, GLPK, HiGHS, and commercial solvers | Python | MIT |
 
 ---
 
 
 
-## RoutingKit
+# 🔄 Workflow / Event Infrastructure
 
+Modern route optimization engines do not run in isolation. They require resilient workflow engines, message queues, and event streams to ingest orders, trigger re-optimizations, and dispatch route updates to driver devices.
 
+The leading open-source workflow and messaging solutions are ranked below by GitHub star count (descending):
 
-GitHub:
+---
 
+## 1. n8n [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)
 
+**Fair-Code Workflow Automation Platform**
+* **GitHub:** https://github.com/n8n-io/n8n
+* **Website:** https://n8n.io/
+* **License:** Sustainable Use License (Fair-Code)
+* **Primary Language:** TypeScript
 
-https://github.com/RoutingKit/RoutingKit
+n8n is an intuitive, extendable workflow automation tool with hundreds of pre-built integrations.
 
+### Best for:
+* Ingesting order webhooks from Shopify, WooCommerce, and ERP systems
+* Triggering geocoding and route optimization requests automatically
+* Sending dispatch notifications to customers via SMS, WhatsApp, and email
 
+---
 
-RoutingKit provides high-performance routing algorithms and data structures.
+## 2. Apache Kafka [![GitHub stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers)
 
+**Distributed Event Streaming Platform**
+* **GitHub:** https://github.com/apache/kafka
+* **Website:** https://kafka.apache.org/
+* **License:** Apache-2.0
+* **Primary Language:** Java / Scala
 
+Apache Kafka is the gold standard for high-throughput, fault-tolerant event streaming.
+
+### Best for:
+* Ingesting high-frequency real-time GPS pings from hundreds or thousands of active fleet vehicles
+* Decoupling telemetry streams from optimization workers
+* Event sourcing for route audit trails and proof-of-delivery timelines
+
+---
+
+## 3. Node-RED [![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)
+
+**Low-Code Event-Driven Wiring Tool**
+* **GitHub:** https://github.com/node-red/node-red
+* **Website:** https://nodered.org/
+* **License:** Apache-2.0
+* **Primary Language:** JavaScript
+
+Node-RED provides a browser-based flow editor that makes it easy to wire together devices, APIs, and online services.
+
+### Best for:
+* IoT fleet telematics integration and hardware sensor data ingestion
+* Rapid prototyping of delivery status webhooks and SMS alert pipelines
+
+---
+
+## 4. Temporal [![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)
+
+**Durable Execution & Workflow Orchestration Platform**
+* **GitHub:** https://github.com/temporalio/temporal
+* **Website:** https://temporal.io/
+* **License:** MIT
+* **Primary Language:** Go
+
+Temporal guarantees that critical, multi-step business workflows execute reliably even in the event of server failures, network partitions, or long delays.
+
+### Best for:
+* Managing multi-hour delivery lifecycles (dispatching → driver pickup → transit → POD)
+* Asynchronous dispatch worker coordination and optimization retry handling
+* Reliable rollback mechanisms when deliveries fail or vehicles breakdown
 
 ---
 
 
 
-# Mapping / Geocoding / Matrix
-
-
-
-## OpenStreetMap
-
-
-
-https://www.openstreetmap.org/
-
-
-
-The foundational open geographic dataset for many self-hosted routing systems.
-
-
-
----
-
-
-
-## Nominatim
-
-
-
-GitHub:
-
-
-
-https://github.com/osm-search/Nominatim
-
-
-
-Nominatim provides OpenStreetMap-based geocoding and reverse geocoding.
-
-
-
----
-
-
-
-## Photon
-
-
-
-GitHub:
-
-
-
-https://github.com/komoot/photon
-
-
-
-Photon provides geocoding based on OpenStreetMap data.
-
-
-
----
-
-
-
-## Pelias
-
-
-
-GitHub:
-
-
-
-https://github.com/pelias/pelias
-
-
-
-Pelias is an open-source geocoding/search stack.
-
-
-
----
-
-
-
-## OpenMapTiles
-
-
-
-https://openmaptiles.org/
-
-
-
-Useful for self-hosted vector-map infrastructure.
-
-
-
----
-
-
-
-## MapLibre
-
-
-
-GitHub:
-
-
-
-https://github.com/maplibre/maplibre-gl-js
-
-
-
-MapLibre provides open-source map rendering for web applications.
-
-
-
----
-
-
-
-# Fleet / Dispatch / Delivery Platforms
-
-
-
-These projects are not necessarily direct replacements for VROOM or OR-Tools. They can provide the operational layer around an optimization engine.
-
-
-
-## Traccar
-
-
-
-GitHub:
-
-
-
-https://github.com/traccar/traccar
-
-
-
-Website:
-
-
-
-https://www.traccar.org/
-
-
-
-Open-source GPS tracking and fleet-management platform.
-
-
-
-Useful for:
-
-
-
-* Vehicle tracking
-
-* Driver tracking
-
-* Geofencing
-
-* Telemetry
-
-* Fleet monitoring
-
-* GPS events
-
-
-
----
-
-
-
-## OwnTracks
-
-
-
-GitHub:
-
-
-
-https://github.com/owntracks
-
-
-
-Open-source location tracking ecosystem.
-
-
-
----
-
-
-
-## OpenGTS
-
-
-
-Website:
-
-
-
-https://www.opengts.org/
-
-
-
-Open-source GPS tracking platform.
-
-
-
----
-
-
-
-# Territory Planning
-
-
-
-## Open Door Logistics Studio
-
-
-
-Website:
-
-
-
-https://www.opendoorlogistics.com/
-
-
-
-Open-source logistics and geographic analysis software.
-
-
-
-Potential applications include:
-
-
-
-* Territory design
-
-* Customer mapping
-
-* Logistics analysis
-
-* Route planning
-
-* Geographic segmentation
-
-
-
----
-
-
-
-# Optimization & Data Science Libraries
-
-
-
-A modern route optimization platform can combine optimization with machine learning.
-
-
-
-Useful open-source components include:
-
-
-
-| Project                                           | Purpose                          |
-
-| ------------------------------------------------- | -------------------------------- |
-
-| [NumPy](https://numpy.org/)                       | Numerical computing              |
-
-| [SciPy](https://scipy.org/)                       | Scientific optimization          |
-
-| [Pandas](https://pandas.pydata.org/)              | Data processing                  |
-
-| [Polars](https://pola.rs/)                        | High-performance data processing |
-
-| [scikit-learn](https://scikit-learn.org/)         | Machine learning                 |
-
-| [XGBoost](https://xgboost.readthedocs.io/)        | ETA / prediction models          |
-
-| [LightGBM](https://github.com/microsoft/LightGBM) | Gradient boosting                |
-
-| [PyTorch](https://pytorch.org/)                   | Deep learning                    |
-
-| [NetworkX](https://networkx.org/)                 | Graph algorithms                 |
-
-| [OSMNX](https://github.com/gboeing/osmnx)         | OSM network analysis             |
-
-| [GeoPandas](https://geopandas.org/)               | Geospatial analytics             |
-
-| [Shapely](https://shapely.readthedocs.io/)        | Computational geometry           |
-
-
-
----
-
-
-
-# Workflow / Event Infrastructure
-
-
-
-A commercial routing platform usually requires substantial orchestration around the optimizer.
-
-
-
-Useful open-source infrastructure includes:
-
-
-
-## n8n
-
-
-
-https://github.com/n8n-io/n8n
-
-
-
-Useful for:
-
-
-
-* Order ingestion
-
-* CRM integration
-
-* Webhooks
-
-* Notifications
-
-* Route optimization triggers
-
-* API orchestration
-
-
-
-> **Licensing note:** n8n uses a source-available licensing model rather than a conventional OSI-approved open-source license. Verify the current license before treating it as an open-source dependency.
-
-
-
----
-
-
-
-## Temporal
-
-
-
-https://github.com/temporalio/temporal
-
-
-
-Excellent for:
-
-
-
-* Long-running dispatch workflows
-
-* Retry handling
-
-* Route optimization jobs
-
-* Driver notification workflows
-
-* Reoptimization workflows
-
-* Order lifecycle orchestration
-
-
-
----
-
-
-
-## Node-RED
-
-
-
-https://github.com/node-red/node-red
-
-
-
-Useful for event-driven fleet and IoT integrations.
-
-
-
----
-
-
-
-## Apache Kafka
-
-
-
-https://kafka.apache.org/
-
-
-
-Useful for:
-
-
-
-* GPS events
-
-* Order events
-
-* Driver status
-
-* Vehicle telemetry
-
-* Route updates
-
-
-
----
-
-
-
-# Commercial → Open-Source Mapping
+# 🔄 Commercial → Open-Source Mapping
 
 
 
@@ -1564,7 +1093,7 @@ Useful for:
 
 
 
-# Route Optimization Problem Types
+# 🧩 Route Optimization Problem Types
 
 
 
@@ -1746,7 +1275,7 @@ Different vehicles may have:
 
 
 
-# Core Architecture
+# 🏗️ Core Architecture
 
 
 
@@ -1810,7 +1339,7 @@ flowchart TB
 
 
 
-# Reference Architecture
+# 🏛️ Reference Architecture
 
 
 
@@ -1920,7 +1449,7 @@ flowchart LR
 
 
 
-# Route Optimization Workflow
+# 📋 Route Optimization Workflow
 
 
 
@@ -1978,7 +1507,7 @@ sequenceDiagram
 
 
 
-# Dynamic Dispatch Architecture
+# ⚡ Dynamic Dispatch Architecture
 
 
 
@@ -2064,7 +1593,7 @@ Dynamic optimization can be triggered by:
 
 
 
-# Last-Mile Delivery Architecture
+# 📦 Last-Mile Delivery Architecture
 
 
 
@@ -2130,7 +1659,7 @@ flowchart TB
 
 
 
-# Sales / Service Territory Optimization
+# 🎯 Sales / Service Territory Optimization
 
 
 
@@ -2194,7 +1723,7 @@ flowchart LR
 
 
 
-# Capability Matrix
+# 📊 Capability Matrix
 
 
 
@@ -2236,7 +1765,7 @@ flowchart LR
 
 
 
-# Recommended Open-Source Stacks
+# 🏆 Recommended Open-Source Stacks
 
 
 
@@ -2546,7 +2075,7 @@ Best for:
 
 
 
-# What Open Source Can and Cannot Replace
+# ⚖️ What Open Source Can and Cannot Replace
 
 
 
@@ -2650,7 +2179,7 @@ The missing pieces are generally the **data, UX, operational workflows, mobile a
 
 
 
-# Route Data Model
+# 📦 Route Data Model
 
 
 
@@ -2756,7 +2285,7 @@ Route
 
 
 
-# Optimization Objective Functions
+# 🎯 Optimization Objective Functions
 
 
 
@@ -2828,7 +2357,7 @@ The exact weighting should be determined from business priorities.
 
 
 
-# Constraints
+# 🔒 Constraints
 
 
 
@@ -2930,7 +2459,7 @@ The exact weighting should be determined from business priorities.
 
 
 
-# Real-Time Reoptimization
+# ⏱️ Real-Time Reoptimization
 
 
 
@@ -2996,7 +2525,7 @@ flowchart TD
 
 
 
-# Geocoding and Travel-Time Data
+# 🌐 Geocoding and Travel-Time Data
 
 
 
@@ -3050,7 +2579,7 @@ OpenStreetMap
 
 
 
-# ETA and Traffic
+# 🚗 ETA and Traffic
 
 
 
@@ -3122,7 +2651,7 @@ This is one of the biggest differences between a simple open-source routing syst
 
 
 
-# Fleet Management Integration
+# 🚛 Fleet Management Integration
 
 
 
@@ -3190,7 +2719,7 @@ Possible events:
 
 
 
-# Driver / Mobile Applications
+# 📱 Driver / Mobile Applications
 
 
 
@@ -3270,7 +2799,7 @@ Driver features:
 
 
 
-# Security & Compliance
+# 🛡️ Security & Compliance
 
 
 
@@ -3346,7 +2875,7 @@ Useful open-source components:
 
 
 
-# Scalability
+# 📈 Scalability
 
 
 
@@ -3398,7 +2927,7 @@ Optimization Workers
 
 
 
-# Optimization Worker Strategy
+# ⚙️ Optimization Worker Strategy
 
 
 
@@ -3442,7 +2971,7 @@ Dynamic problem
 
 
 
-# Licensing
+# 📄 Licensing
 
 
 
@@ -3508,7 +3037,7 @@ Dynamic problem
 
 
 
-# Open-Source Architecture Patterns
+# 🌐 Open-Source Architecture Patterns
 
 
 
@@ -3634,7 +3163,7 @@ Web UI
 
 
 
-# Open-Source Ecosystem Summary
+# 📚 Open-Source Ecosystem Summary
 
 
 
@@ -3682,7 +3211,7 @@ Web UI
 
 
 
-# Best Open-Source Choices by Use Case
+# 💡 Best Open-Source Choices by Use Case
 
 
 
@@ -3734,7 +3263,7 @@ Web UI
 
 
 
-# Open-Source Shortlist
+# 🥇 Open-Source Shortlist
 
 
 
@@ -4122,7 +3651,7 @@ This combination provides the core computational foundation for a self-hosted ro
 
 
 
-# Building an Open-Source OptimoRoute Alternative
+# 🏢 Building an Open-Source OptimoRoute Alternative
 
 
 
@@ -4212,7 +3741,7 @@ A practical architecture could be:
 
 
 
-# Building an Open-Source Onfleet Alternative
+# 🏢 Building an Open-Source Onfleet Alternative
 
 
 
@@ -4292,7 +3821,7 @@ This can provide:
 
 
 
-# Building an Open-Source NextBillion.ai Alternative
+# 🏢 Building an Open-Source NextBillion.ai Alternative
 
 
 
@@ -4358,7 +3887,7 @@ This approach gives substantially more control than adopting a single hosted API
 
 
 
-# Building an Open-Source PTV-Style Optimization System
+# 🏢 Building an Open-Source PTV-Style Optimization System
 
 
 
@@ -4442,7 +3971,7 @@ Continuous Optimization
 
 
 
-# Route Optimization vs Route Planning
+# 🔍 Route Optimization vs Route Planning
 
 
 
@@ -4524,7 +4053,7 @@ A sophisticated commercial route platform normally needs **both**.
 
 
 
-# Recommended Starting Point
+# 🎯 Recommended Starting Point
 
 
 
@@ -4708,7 +4237,7 @@ Kubernetes
 
 
 
-# Conclusion
+# 🏁 Conclusion
 
 
 
@@ -4888,7 +4417,7 @@ The strongest combination is:
 
 
 
-# Contributing
+# 🤝 Contributing
 
 
 
@@ -4930,9 +4459,18 @@ Useful contributions include:
 
 ---
 
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Route-Optimization-Engine&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Route-Optimization-Engine&type=date&legend=top-left)
+
+---
 
 
-# Disclaimer
+---
+
+
+
+# ⚠️ Disclaimer
 
 
 
