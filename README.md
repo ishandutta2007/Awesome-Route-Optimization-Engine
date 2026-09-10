@@ -335,7 +335,7 @@ OpenStreetMap / OSM Data
 
 The following table ranks the leading open-source repositories in route optimization, routing networks, mathematical solving, mapping, and fleet management sorted by GitHub_Stars (descending):
 
-| Rank | Project | Category | Stars | Primary Language | Description / Focus |
+| Rank | Project | Category | Github_Stars | Primary Language | Description / Focus |
 | :---: | :--- | :--- | :--- | :--- | :--- |
 | 1 | [n8n](https://github.com/n8n-io/n8n) | Workflow Automation | [![GitHub_Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | TypeScript | Fair-code workflow automation for dispatch pipelines |
 | 2 | [Apache Kafka](https://github.com/apache/kafka) | Event Streaming | [![GitHub_Stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers) | Java / Scala | High-throughput distributed event streaming for GPS and order events |
